@@ -17,4 +17,4 @@ pip install gpt4-openai-api
 pip install claude-api
 
 ## For UI
-https://vercel.com/templates/next.js/nextjs-ai-chatbot"# StoicBite" 
+https://vercel.com/templates/next.js/nextjs-ai-chatbot
