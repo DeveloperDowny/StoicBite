@@ -1,4 +1,5 @@
 import os
+from flask_caching import Cache
 import logging
 from flask import Flask, jsonify
 import requests
@@ -6,6 +7,7 @@ from openai import OpenAI
 from k import oakv1, quote_url
 
 from flask import request
+import time
 
 
 # Set up logging
@@ -13,6 +15,28 @@ logging.basicConfig(filename='stoic_app.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+# Configure Flask-Caching
+app.config['CACHE_TYPE'] = 'SimpleCache'  # For this example, using simple in-memory cache
+cache = Cache(app)
+
+def get_quote_from_request():
+    data = request.get_json()
+    logging.info("Received request for quote processing.")
+    return data.get('quote', '')
+
+@cache.memoize(timeout=50)  # Corrected cache timeout to 50 seconds
+def cached_process_quote(quote):
+    start_time = time.time()  # Start timing
+    # Assume generate_response is a function that generates the explanation
+    explanation = generate_response(quote)
+    end_time = time.time()  # End timing
+    time_taken = end_time - start_time
+    # Log the time taken to process the quote, indicating cache miss
+    logging.info(f"Processed quote in {time_taken:.2f} seconds. Cache miss.")
+    return {
+        "quote": quote,
+        "explanation": explanation
+    }
 
 # Configure OpenAI client
 # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
@@ -73,20 +97,11 @@ def daily_stoic():
 @app.route('/process_quote', methods=['POST'])
 def process_quote():
     try:
-        # Extract quote from request body
-        data = request.get_json()
-        quote = data.get('quote')
+        quote = get_quote_from_request()
         if not quote:
             return jsonify({"error": "No quote provided"}), 400
 
-        # Generate explanation for the provided quote
-        explanation = generate_response(quote)
-
-        # Construct and return the response
-        response = {
-            "quote": quote,
-            "explanation": explanation
-        }
+        response = cached_process_quote(quote)
         return jsonify(response), 200
     except Exception as e:
         error_response = {"error": str(e)}
