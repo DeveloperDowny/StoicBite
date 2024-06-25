@@ -118,6 +118,9 @@
   --dark_bg: #1f1f1f;
   --dark_text: #9c9c9c;
   --dark_eye_grabbing: #ffffff;
+
+  /* var full screen height */
+  --full_height: 100vh;
 }
 
 /* set background color default */

@@ -1,6 +1,6 @@
 .parent_cont {
-  min-height: 100vh;
-  max-height: 100vh;
+  min-height: var(--full_height);
+  max-height: var(--full_height);
   position: relative;
   min-width: 100%;
 }
@@ -8,12 +8,12 @@
 .img_cont {
   position: absolute;
   z-index: -2;
-  height: 100vh;
+  height: var(--full_height);
   width: 100%;
 }
 
 .main_cont {
-  height: 100vh;
+  height: var(--full_height);
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -48,7 +48,7 @@
   position: absolute;
   z-index: -1;
 
-  height: 100vh;
+  height: var(--full_height);
   width: 100%;
 
   /* background: linear-gradient(
