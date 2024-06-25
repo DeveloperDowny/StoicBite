@@ -25,7 +25,7 @@ const QuotePage = () => {
   }, []);
 
   return (
-    <div className="max-w-[28rem] opacity-0" ref={parentContRef}>
+    <div className="max-w-[28rem] opacity-0 relative" ref={parentContRef}>
       <QuoteCont />
       <QuoteExplain />
     </div>
