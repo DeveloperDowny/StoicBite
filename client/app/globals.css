@@ -125,9 +125,13 @@
 body {
   background-color: var(--dark_bg);
   color: var(--dark_text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-html {
+/* html {
   overflow: hidden;
   width: 100%;
 }
@@ -136,4 +140,4 @@ body {
   height: 100%;
   position: fixed;
   overflow-y: scroll;
-}
+} */
