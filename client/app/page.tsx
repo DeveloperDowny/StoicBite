@@ -2,11 +2,48 @@
 
 import QuoteCont from "@/components/QuoteCont/QuoteCont";
 import QuoteExplain from "@/components/QuoteExplain/QuoteExplain";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
 
 const QuotePage = () => {
+  const [data, setData] = useState({});
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    let isMounted = true;
+
+    const fetchData = async () => {
+      setLoading(true);
+      try {
+        const quoteData = () => {
+          return new Promise((resolve) => {
+            setTimeout(() => {
+              resolve({
+                data: {
+                  quote: quote,
+                  quote_by: quote_by,
+                  explaination: explaination,
+                },
+              });
+            }, 2000);
+          });
+        };
+        const res = await quoteData();
+        if (isMounted) {
+          setData(res.data);
+          setLoading(false);
+        }
+      } catch (err) {
+        setLoading(false);
+      }
+    };
+    fetchData();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const parentContRef = useRef(null);
   // when page loads set window.innerHeight to css variable --full_height
   useEffect(() => {
@@ -25,9 +62,12 @@ const QuotePage = () => {
   }, []);
 
   return (
-    <div className="max-w-[28rem] opacity-0 relative" ref={parentContRef}>
-      <QuoteCont quote={quote} quote_by={quote_by} />
-      <QuoteExplain explaination={explaination} />
+    <div
+      className="max-w-[28rem] opacity-0 relative w-full"
+      ref={parentContRef}
+    >
+      <QuoteCont quote={data.quote} quote_by={data.quote_by} />
+      <QuoteExplain explaination={data.explaination} />
     </div>
   );
 };

@@ -13,6 +13,7 @@ import React from "react";
 const QuoteExplain = ({ explaination }) => {
   const [ns, setNs] = useState([]);
   useEffect(() => {
+    if (!explaination) return;
     const ns = preProcessFunc(explaination);
     setNs(ns);
   }, [explaination]);

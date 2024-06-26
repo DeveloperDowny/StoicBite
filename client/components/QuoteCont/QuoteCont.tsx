@@ -11,9 +11,7 @@ import styles from "./QuoteCont.module.css";
 
 import React from "react";
 
-const QuoteCont = ({
-  quote, quote_by
-}) => {
+const QuoteCont = ({ quote, quote_by }) => {
   const boxRef = useRef(null);
   const quoteByRef = useRef(null);
 
@@ -48,7 +46,7 @@ const QuoteCont = ({
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
-  }, []);
+  }, [quote]);
 
   return (
     <div className={styles.parent_cont}>
@@ -68,25 +66,26 @@ const QuoteCont = ({
           alt={""}
         />
       </div>
-      <div className={styles.main_cont}>
-        <div className={styles.quote} ref={boxRef}>
-          <div className={styles.quote_img_cont}>
-            <Image
-              src="/images/quote_img.png"
-              layout="fill"
-              objectFit="cover"
-              alt={""}
-            />
+      {quote && (
+        <div className={styles.main_cont}>
+          <div className={styles.quote} ref={boxRef}>
+            <div className={styles.quote_img_cont}>
+              <Image
+                src="/images/quote_img.png"
+                layout="fill"
+                objectFit="cover"
+                alt={""}
+              />
+            </div>
+            {quote}
           </div>
-          {quote}
+          <div className={styles.quote_by} ref={quoteByRef}>
+            — {quote_by}
+          </div>
         </div>
-        <div className={styles.quote_by} ref={quoteByRef}>
-          — {quote_by}
-        </div>
-      </div>
+      )}
     </div>
   );
 };
-
 
 export default QuoteCont;
