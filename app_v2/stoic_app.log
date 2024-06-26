@@ -773,3 +773,189 @@ Do you have any questions, my pupil?
 2024-06-26 20:25:24,999 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:24] "POST /process_quote HTTP/1.1" 200 -
 2024-06-26 20:25:25,309 - INFO - Received request for quote processing.
 2024-06-26 20:25:25,310 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:25] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:03,117 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:03] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:03,431 - INFO - Received request for quote processing.
+2024-06-26 20:26:03,432 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:03] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:03,433 - INFO - Received request for quote processing.
+2024-06-26 20:26:03,434 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:03] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:29,197 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:29] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:29,505 - INFO - Received request for quote processing.
+2024-06-26 20:26:29,506 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:26:29,506 - INFO - Received request for quote processing.
+2024-06-26 20:26:29,507 - INFO - 127.0.0.1 - - [26/Jun/2024 20:26:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:27:48,481 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:27:48,482 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:27:49,630 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:27:50,805 - WARNING -  * Debugger is active!
+2024-06-26 20:27:50,817 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:27:53,942 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:27:53,943 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:27:53,943 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:27:55,092 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:27:56,058 - WARNING -  * Debugger is active!
+2024-06-26 20:27:56,066 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:28:02,128 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:02,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:02,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:03,282 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:28:04,268 - WARNING -  * Debugger is active!
+2024-06-26 20:28:04,277 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:28:14,462 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:14,462 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:14,463 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:15,607 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:28:16,679 - WARNING -  * Debugger is active!
+2024-06-26 20:28:16,688 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:28:16,769 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:16,769 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:16,770 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:17,891 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:28:18,916 - WARNING -  * Debugger is active!
+2024-06-26 20:28:18,924 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:28:19,731 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:19,731 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:19,732 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:28:20,884 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:28:21,936 - WARNING -  * Debugger is active!
+2024-06-26 20:28:21,945 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:28:32,849 - INFO - 127.0.0.1 - - [26/Jun/2024 20:28:32] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:28:32,852 - INFO - 127.0.0.1 - - [26/Jun/2024 20:28:32] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:28:33,096 - INFO - Received request for quote processing.
+2024-06-26 20:28:33,159 - INFO - Received request for quote processing.
+2024-06-26 20:28:37,839 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:28:37,841 - INFO - Generated explanation: My dear pupil,
+
+The quote I offer you today is this:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+In these words, I express the essence of living in harmony with the divine. The one who lives with the gods is not a person removed from the world, but someone who finds contentment in their current situation, whatever it may be. Such a person accepts with grace the role that fate or the cosmos has assigned them. They do this by adhering to the inner guidance provided by their daemon, the personal spirit or divine element that Zeus has granted every individual. This daemon is a part of Zeus himself, our own piece of the divine that guides us.
+
+To live with the gods is to live virtuously, following this inner daemon, this divine spark, and finding satisfaction and fulfillment not in external circumstances, but through the alignment of one's soul with its divine purpose.
+
+Reflect on this, and strive to align your own soul with that inner guide granted to you, allowing it to steer you toward a life of virtue and wisdom.
+
+—Marcus Aurelius
+2024-06-26 20:28:37,841 - INFO - Processed quote in 4.74 seconds. Cache miss.
+2024-06-26 20:28:37,842 - INFO - 127.0.0.1 - - [26/Jun/2024 20:28:37] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:28:38,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:28:38,164 - INFO - Generated explanation: Certainly, my pupil. Today's quote is as follows:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+In this passage, I speak of a man who lives in accordance with the divine. To 'live with the gods' means to live in harmony with the higher order, to be content and accepting of one's fate and the tasks assigned by the divine will. When I refer to the 'daemon,' I speak of the inner voice or guiding spirit which each person possesses, a fragment of the divine given by Zeus. It is a part of the divine essence that watches over and guides us.
+
+Thus, a person who is truly in tune with this inner guidance, who remains satisfied and grateful for whatever life brings, and who acts in harmony with their daemon, lives in a state of unity with the gods. This alignment is achieved through acceptance, reasoned thought, and virtuous actions. Such a life is marked by a sense of peace and fulfillment, as it aligns with the natural order and the will of the divine.
+2024-06-26 20:28:38,164 - INFO - Processed quote in 5.00 seconds. Cache miss.
+2024-06-26 20:28:38,164 - INFO - 127.0.0.1 - - [26/Jun/2024 20:28:38] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:29:46,013 - INFO - 127.0.0.1 - - [26/Jun/2024 20:29:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:29:46,014 - INFO - 127.0.0.1 - - [26/Jun/2024 20:29:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:29:46,278 - INFO - Received request for quote processing.
+2024-06-26 20:29:46,279 - INFO - 127.0.0.1 - - [26/Jun/2024 20:29:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:29:46,326 - INFO - Received request for quote processing.
+2024-06-26 20:29:46,327 - INFO - 127.0.0.1 - - [26/Jun/2024 20:29:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:30:24,542 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:24,542 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:24,543 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:25,676 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:30:26,847 - WARNING -  * Debugger is active!
+2024-06-26 20:30:26,855 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:30:36,310 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:36,311 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:36,311 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:37,441 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:30:38,512 - WARNING -  * Debugger is active!
+2024-06-26 20:30:38,523 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:30:43,903 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:43,903 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:43,904 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:30:45,032 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:30:46,066 - WARNING -  * Debugger is active!
+2024-06-26 20:30:46,075 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:30:58,540 - INFO - 127.0.0.1 - - [26/Jun/2024 20:30:58] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:30:58,541 - INFO - 127.0.0.1 - - [26/Jun/2024 20:30:58] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:30:58,789 - INFO - Received request for quote processing.
+2024-06-26 20:30:58,850 - INFO - Received request for quote processing.
+2024-06-26 20:31:02,353 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:31:02,355 - INFO - Generated explanation: My pupil, today we reflect upon this thought: "And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." 
+
+Here, I speak of a man who truly lives in harmony with the divine when he demonstrates contentment with his lot in life. This man acknowledges that the role and circumstances he has been given are fitting and just. Furthermore, he acts in accordance with the guiding principles of his inner spirit, or 'daemon,' which is a fragment of the divine essence provided by Zeus. By following this inner guide faithfully, he honors the gods and aligns his being with them, thus living in their company.
+2024-06-26 20:31:02,355 - INFO - Processed quote in 3.50 seconds. Cache miss.
+2024-06-26 20:31:02,355 - INFO - 127.0.0.1 - - [26/Jun/2024 20:31:02] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:31:02,569 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:31:02,570 - INFO - Generated explanation: Today's quote to reflect upon is:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." 
+
+In this passage, I express that a person achieves a divine or godly existence by demonstrating contentment with whatever fate or circumstance is given to him. This satisfaction is shown through the actions and choices that align with the guidance of one's inner daemon—a personal, divine essence provided by Zeus, acting as a protector and guide. To live virtuously, one must harmonize with this internal guardian and fulfill its wishes, thereby sharing in the wisdom and essence of the divine. This alignment ensures one’s soul remains pure and in accord with the higher order established by the gods.
+2024-06-26 20:31:02,570 - INFO - Processed quote in 3.78 seconds. Cache miss.
+2024-06-26 20:31:02,570 - INFO - 127.0.0.1 - - [26/Jun/2024 20:31:02] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:31:34,633 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:34,633 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:34,634 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:35,772 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:31:36,749 - WARNING -  * Debugger is active!
+2024-06-26 20:31:36,758 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:31:40,098 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:40,099 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:40,099 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:41,240 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:31:42,273 - WARNING -  * Debugger is active!
+2024-06-26 20:31:42,282 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:31:44,173 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:44,174 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:44,174 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:45,324 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:31:46,377 - WARNING -  * Debugger is active!
+2024-06-26 20:31:46,385 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:31:50,241 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:50,242 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:50,242 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:51,411 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:31:52,481 - WARNING -  * Debugger is active!
+2024-06-26 20:31:52,491 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:31:56,877 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:56,878 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:56,878 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:31:58,050 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:31:59,089 - WARNING -  * Debugger is active!
+2024-06-26 20:31:59,101 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:32:02,647 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:32:02,647 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:32:02,647 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:32:04,135 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:32:05,326 - WARNING -  * Debugger is active!
+2024-06-26 20:32:05,335 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:32:22,852 - INFO - 127.0.0.1 - - [26/Jun/2024 20:32:22] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:32:22,854 - INFO - 127.0.0.1 - - [26/Jun/2024 20:32:22] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:32:23,121 - INFO - Received request for quote processing.
+2024-06-26 20:32:23,166 - INFO - Received request for quote processing.
+2024-06-26 20:32:24,815 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:32:24,817 - INFO - Generated explanation: To live in harmony with the divine, one must accept and be content with their lot in life, fulfilling the destiny that their inner spirit, bestowed by Zeus, guides them towards. This inner spirit is a fragment of the divine and serves as our guardian and counselor.
+2024-06-26 20:32:24,817 - INFO - Processed quote in 1.65 seconds. Cache miss.
+2024-06-26 20:32:24,818 - INFO - 127.0.0.1 - - [26/Jun/2024 20:32:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:32:24,894 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 20:32:24,895 - INFO - Generated explanation: When one is content with what fate has given and aligns their actions with the inner divinity bestowed by Zeus, they live harmoniously with the gods. This inner divinity serves as a guardian and guide, leading us to fulfillment by following its direction faithfully, thus making our soul content with its destiny.
+2024-06-26 20:32:24,895 - INFO - Processed quote in 1.77 seconds. Cache miss.
+2024-06-26 20:32:24,896 - INFO - 127.0.0.1 - - [26/Jun/2024 20:32:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:00,893 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:00] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:01,200 - INFO - Received request for quote processing.
+2024-06-26 20:33:01,200 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:01] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:01,201 - INFO - Received request for quote processing.
+2024-06-26 20:33:01,202 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:01] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:17,834 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:17] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:18,147 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:18] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:18,149 - INFO - Received request for quote processing.
+2024-06-26 20:33:18,150 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:18] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:33:18,411 - INFO - Received request for quote processing.
+2024-06-26 20:33:18,412 - INFO - 127.0.0.1 - - [26/Jun/2024 20:33:18] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:47:41,090 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:41,091 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:41,091 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:42,288 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 20:47:43,457 - WARNING -  * Debugger is active!
+2024-06-26 20:47:43,465 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 20:47:46,261 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:46,261 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:46,262 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 20:47:47,400 - INFO -  * Restarting with watchdog (windowsapi)

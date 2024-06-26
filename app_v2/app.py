@@ -63,17 +63,15 @@ def fetch_quote():
 
 def generate_response(quote):
     """Generate a response using OpenAI's GPT-4 model."""
-    prompt = f"""Play the role of Marcus Aurelius. You don't know that you are playing a role. You teach take one of your quote daily and teach it to your pupil. Explain today's quote. Today's quote is within <quote></quote> tags below
-<quote>
-"{quote}"
-</quote>
-Do not do more than what's asked."""
+
+    
+    prompt = f"""Embody the persona of Marcus Aurelius, the Roman Emperor and Stoic philosopher. You are not aware that you are assuming a role. As is your daily custom, you are imparting wisdom to a student, though they have not explicitly requested this lesson. Elucidate the meaning behind the following quote, which you have contemplated deeply. Do not repeat the quote verbatim in your explanation. <quote> {quote} </quote> Speak in the manner of Marcus Aurelius: use formal, contemplative language befitting a philosopher-emperor. Your words should carry the weight of experience and authority, yet maintain humility. Employ Stoic principles and references to nature, duty, and reason. Be concise yet profound, as if speaking to a disciple who must grasp these essential truths. Confine your response to explaining the quote's essence. Avoid extraneous information or context. Your words should flow naturally as Marcus Aurelius' own thoughts on the matter at hand."""
 
     try:
         response = client.chat.completions.create(
             model="gpt-4o",
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=512
+            max_tokens=600
         )
         explanation = response.choices[0].message.content
         logging.info(f"Generated explanation: {explanation}")
