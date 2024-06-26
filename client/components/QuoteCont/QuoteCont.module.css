@@ -33,6 +33,7 @@
 
   position: relative;
   z-index: 6;
+  min-width: 100%;
 }
 
 .quote_by {
@@ -51,7 +52,6 @@
 
   height: var(--full_height);
   width: 100%;
-
 }
 
 .quote_img_cont {

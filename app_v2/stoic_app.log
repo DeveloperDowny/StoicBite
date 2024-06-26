@@ -69,3 +69,151 @@ By accepting what is assigned to us and striving to act in unity with our inner 
 2024-06-26 16:25:21,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2024-06-26 16:25:21,885 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 16:58:46,775 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 16:58:46,775 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 16:59:07,080 - INFO - 127.0.0.1 - - [26/Jun/2024 16:59:07] "POST /test HTTP/1.1" 200 -
+2024-06-26 17:01:45,570 - INFO - 127.0.0.1 - - [26/Jun/2024 17:01:45] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:01:45,578 - INFO - 127.0.0.1 - - [26/Jun/2024 17:01:45] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:02:44,164 - INFO - 127.0.0.1 - - [26/Jun/2024 17:02:44] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:02:44,484 - INFO - 127.0.0.1 - - [26/Jun/2024 17:02:44] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:02:50,910 - INFO - 127.0.0.1 - - [26/Jun/2024 17:02:50] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:02:50,913 - INFO - 127.0.0.1 - - [26/Jun/2024 17:02:50] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:04:07,711 - INFO - 127.0.0.1 - - [26/Jun/2024 17:04:07] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:04:07,713 - INFO - 127.0.0.1 - - [26/Jun/2024 17:04:07] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:06:46,150 - INFO - 127.0.0.1 - - [26/Jun/2024 17:06:46] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:06:46,152 - INFO - 127.0.0.1 - - [26/Jun/2024 17:06:46] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:07:37,505 - INFO - 127.0.0.1 - - [26/Jun/2024 17:07:37] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:07:37,506 - INFO - 127.0.0.1 - - [26/Jun/2024 17:07:37] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:08:42,616 - INFO - 127.0.0.1 - - [26/Jun/2024 17:08:42] "POST /test HTTP/1.1" 200 -
+2024-06-26 17:08:44,128 - INFO - 127.0.0.1 - - [26/Jun/2024 17:08:44] "POST /test HTTP/1.1" 200 -
+2024-06-26 17:16:47,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 17:16:47,420 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 17:17:00,598 - INFO - 127.0.0.1 - - [26/Jun/2024 17:17:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:17:00,600 - INFO - 127.0.0.1 - - [26/Jun/2024 17:17:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:19:43,525 - INFO - 127.0.0.1 - - [26/Jun/2024 17:19:43] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 17:19:43,527 - INFO - 127.0.0.1 - - [26/Jun/2024 17:19:43] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:33:35,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 18:33:35,065 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 18:38:05,875 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 18:38:05,876 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 18:38:05,888 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:38:07,100 - WARNING -  * Debugger is active!
+2024-06-26 18:38:07,123 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 18:38:24,173 - INFO - 127.0.0.1 - - [26/Jun/2024 18:38:24] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:38:24,177 - INFO - 127.0.0.1 - - [26/Jun/2024 18:38:24] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:38:47,951 - INFO - 127.0.0.1 - - [26/Jun/2024 18:38:47] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:38:47,961 - INFO - 127.0.0.1 - - [26/Jun/2024 18:38:47] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:41:25,728 - INFO - 127.0.0.1 - - [26/Jun/2024 18:41:25] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:41:25,744 - INFO - 127.0.0.1 - - [26/Jun/2024 18:41:25] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:41:59,606 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:41:59,607 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:41:59,607 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:42:00,833 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:42:02,731 - WARNING -  * Debugger is active!
+2024-06-26 18:42:02,746 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 18:42:10,238 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:42:10,238 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:42:10,239 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:42:11,419 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:42:13,188 - WARNING -  * Debugger is active!
+2024-06-26 18:42:13,211 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 18:42:20,952 - INFO - 127.0.0.1 - - [26/Jun/2024 18:42:20] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:42:20,955 - INFO - 127.0.0.1 - - [26/Jun/2024 18:42:20] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:43:06,672 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\compat.py', reloading
+2024-06-26 18:43:06,697 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+2024-06-26 18:43:07,851 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:43:09,258 - WARNING -  * Debugger is active!
+2024-06-26 18:43:09,278 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 18:43:10,698 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:43:10,698 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 18:43:11,899 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:43:50,689 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 18:43:50,689 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 18:43:50,698 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 18:43:52,596 - WARNING -  * Debugger is active!
+2024-06-26 18:43:52,611 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 18:43:57,938 - INFO - 127.0.0.1 - - [26/Jun/2024 18:43:57] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:43:57,940 - INFO - 127.0.0.1 - - [26/Jun/2024 18:43:57] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:44:12,980 - INFO - 127.0.0.1 - - [26/Jun/2024 18:44:12] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 18:44:12,982 - INFO - 127.0.0.1 - - [26/Jun/2024 18:44:12] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:14:00,787 - INFO - 127.0.0.1 - - [26/Jun/2024 19:14:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:14:00,791 - INFO - 127.0.0.1 - - [26/Jun/2024 19:14:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:16:38,953 - INFO - 127.0.0.1 - - [26/Jun/2024 19:16:38] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:16:38,956 - INFO - 127.0.0.1 - - [26/Jun/2024 19:16:38] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:17:50,809 - INFO - 127.0.0.1 - - [26/Jun/2024 19:17:50] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:17:50,813 - INFO - 127.0.0.1 - - [26/Jun/2024 19:17:50] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:17:51,074 - INFO - 127.0.0.1 - - [26/Jun/2024 19:17:51] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:17:51,127 - INFO - 127.0.0.1 - - [26/Jun/2024 19:17:51] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:19:42,255 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:42] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:19:42,256 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:42] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:19:42,520 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:42] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:19:42,579 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:42] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:19:51,913 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:51] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:19:52,227 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:52] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:19:52,228 - INFO - 127.0.0.1 - - [26/Jun/2024 19:19:52] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:20:06,638 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:06,639 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:06,640 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:07,849 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:09,122 - WARNING -  * Debugger is active!
+2024-06-26 19:20:09,130 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:10,070 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:10,071 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:10,071 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:11,203 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:12,203 - WARNING -  * Debugger is active!
+2024-06-26 19:20:12,212 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:12,737 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:12,737 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:12,738 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:13,191 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:13,192 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:13,192 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:14,336 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:15,424 - WARNING -  * Debugger is active!
+2024-06-26 19:20:15,435 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:17,872 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:17,873 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:17,873 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:19,006 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:19,997 - WARNING -  * Debugger is active!
+2024-06-26 19:20:20,008 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:26,118 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\io.py', reloading
+2024-06-26 19:20:26,122 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\re\\__init__.py', reloading
+2024-06-26 19:20:26,130 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\traceback.py', reloading
+2024-06-26 19:20:26,151 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\warnings.py', reloading
+2024-06-26 19:20:26,162 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\weakref.py', reloading
+2024-06-26 19:20:26,172 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\collections\\abc.py', reloading
+2024-06-26 19:20:26,174 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\types.py', reloading
+2024-06-26 19:20:26,182 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\string.py', reloading
+2024-06-26 19:20:26,270 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\pickle.py', reloading
+2024-06-26 19:20:27,417 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:28,415 - WARNING -  * Debugger is active!
+2024-06-26 19:20:28,423 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:31,601 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:31,602 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:31,602 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:32,778 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:34,003 - WARNING -  * Debugger is active!
+2024-06-26 19:20:34,013 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:47,550 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:47,550 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:47,551 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:48,689 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:49,633 - WARNING -  * Debugger is active!
+2024-06-26 19:20:49,642 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:53,267 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:53,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:53,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:54,410 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:55,530 - WARNING -  * Debugger is active!
+2024-06-26 19:20:55,538 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:20:56,592 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:56,592 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:56,593 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:20:57,727 - INFO -  * Restarting with watchdog (windowsapi)

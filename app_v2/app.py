@@ -1,4 +1,5 @@
 import os
+import time
 from flask_caching import Cache
 import logging
 from flask import Flask, jsonify
@@ -6,15 +7,18 @@ import requests
 from openai import OpenAI
 from k import oakv1, quote_url
 
-from flask import request
-import time
-
+from flask import request, Response
+from flask_cors import CORS
+ 
+ 
 
 # Set up logging
 logging.basicConfig(filename='stoic_app.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
+CORS(app)
+
 # Configure Flask-Caching
 app.config['CACHE_TYPE'] = 'SimpleCache'  # For this example, using simple in-memory cache
 cache = Cache(app)
@@ -106,17 +110,27 @@ def process_quote():
     except Exception as e:
         error_response = {"error": str(e)}
         logging.error(f"Error in process_quote: {error_response}")
-        return jsonify(error_response), 500
+        return jsonify(error_response), 500 
 
 
-# dummy test endpoint
-@app.route('/test', methods=['GET'])
+# dummy test endpoint 
+@app.route('/test', methods=['POST'])
 def test():
-    return jsonify({"message": "Hello, World!"}), 200
+
+    explaination = """Listen to these words, dear pupil: "And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."\nTo live with the gods means to live a life that aligns with divine virtue and wisdom. When a person shows the gods that their soul is content with their lot in life, they demonstrate a profound acceptance and understanding of their role in the universe. This satisfaction is not born of passive resignation but of active embrace of one's destiny and duties.\nEach man, by the will of Zeus, has been blessed with a daemon, a guiding spirit, a portion of the divine that steers him. To live in harmony with this daemon is to heed its counsel, to live virtuously, and to fulfill one's purpose. Thus, true contentment and divine unity are found not in external circumstances but within our inner acceptance and alignment with the higher \n Reflect upon this, and seek the serenity that comes from fulfilling the divine duty assigned to you by fate."""
+
+    quote = """And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."""
+
+    quote_by = """Marcus Aurelius"""
+    return jsonify({
+        "quote": quote,
+        "quote_by": quote_by,
+        "explanation": explaination 
+    }), 200
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    # q = '''"A man should always have these two rules in readiness; the one, to do only whatever the reason of the ruling and legislating faculty may suggest for the use of men; the other, to change thy opinion, if there is anyone at hand who sets thee right and moves thee from any opinion." --Marcus Aurelius, Meditations, Book 4'''
+    # q = '''"A man should always have these two rules in readiness the one, to do only whatever the reason of the ruling and legislating faculty may suggest for the use of men the other, to change thy opinion, if there is anyone at hand who sets thee right and moves thee from any opinion." --Marcus Aurelius, Meditations, Book 4'''
     # print(generate_response(q))
     # q = fetch_quote()
     app.run(debug=True)
