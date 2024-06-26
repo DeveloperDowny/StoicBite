@@ -7,12 +7,14 @@
 
 .img_cont {
   position: absolute;
-  z-index: -2;
+  z-index: 1;
   height: var(--full_height);
   width: 100%;
 }
 
 .main_cont {
+  position: absolute;
+  z-index: 3;
   height: var(--full_height);
   display: flex;
   flex-direction: column;
@@ -23,6 +25,10 @@
   padding-bottom: 1.5rem;
 }
 
+.quote_cont {
+  position: relative;
+}
+
 .quote {
   color: var(--dark_eye_grabbing, #fff);
   font-family: "Irvin";
@@ -31,8 +37,7 @@
   font-weight: 400;
   line-height: 120%;
 
-  position: relative;
-  z-index: 6;
+  z-index: 300;
   min-width: 100%;
 }
 
@@ -44,11 +49,12 @@
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
+  z-index: 10;
 }
 
 .black_overlay {
   position: absolute;
-  z-index: -1;
+  z-index: 2;
 
   height: var(--full_height);
   width: 100%;
@@ -63,4 +69,8 @@
 
   top: calc(-3.8125rem + 1rem);
   left: calc(-0.6875rem);
+}
+
+.quote_img_cont img {
+  z-index: 200;
 }

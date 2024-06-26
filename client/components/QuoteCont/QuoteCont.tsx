@@ -12,6 +12,7 @@ import styles from "./QuoteCont.module.css";
 const QuoteCont = ({ quote, quote_by }) => {
   const boxRef = useRef(null);
   const quoteByRef = useRef(null);
+  const loadingRef = useRef(null);
 
   useEffect(() => {
     const box = boxRef.current;
@@ -46,32 +47,32 @@ const QuoteCont = ({ quote, quote_by }) => {
     };
   }, [quote]);
 
+  useEffect(() => {
+    if (quote) {
+      return;
+    }
+
+    const anim = gsap.fromTo(
+      ".lc",
+      {
+        opacity: 0,
+      },
+      {
+        delay: 1.5,
+        opacity: 1,
+        duration: 1,
+      }
+    );
+    return () => {
+      anim.kill();
+    };
+  }, [quote]);
+
   return (
     <div className={styles.parent_cont}>
-      <div className={styles.img_cont}>
-        <Image
-          src="/images/marcus_image.png"
-          layout="fill"
-          objectFit="cover"
-          alt={""}
-        />
-      </div>
-      <div className={styles.black_overlay}>
-        <Image
-          src="/images/black_gradient.svg"
-          layout="fill"
-          objectFit="cover"
-          alt={""}
-        />
-      </div>
-      {!quote && (
-        <div className={styles.main_cont}>
-          <div className={styles.quote}>Loading...</div>
-        </div>
-      )}
-      {quote && (
-        <div className={styles.main_cont}>
-          <div className={styles.quote} ref={boxRef}>
+      <div className={styles.main_cont}>
+        <div className={styles.quote_cont} ref={boxRef}>
+          {quote && (
             <div className={styles.quote_img_cont}>
               <Image
                 src="/images/quote_img.png"
@@ -80,13 +81,35 @@ const QuoteCont = ({ quote, quote_by }) => {
                 alt={""}
               />
             </div>
-            {quote}
-          </div>
+          )}
+
+          {quote && <div className={styles.quote}>{quote}</div>}
+
+          {!quote && <div className={`${styles.quote} lc`}>Loading...</div>}
+        </div>
+        {quote && (
           <div className={styles.quote_by} ref={quoteByRef}>
             — {quote_by}
           </div>
-        </div>
-      )}
+        )}
+      </div>
+
+      <div className={styles.black_overlay}>
+        <Image
+          src="/images/black_gradient.svg"
+          layout="fill"
+          objectFit="cover"
+          alt={""}
+        />
+      </div>
+      <div className={styles.img_cont}>
+        <Image
+          src="/images/marcus_image.png"
+          layout="fill"
+          objectFit="cover"
+          alt={""}
+        />
+      </div>
     </div>
   );
 };

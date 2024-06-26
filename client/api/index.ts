@@ -33,13 +33,24 @@ export const kdm = true;
 export const fetchQuote = async () => {
   try {
     if (kdm) {
-      const dummy_data = {
-        quote:
-          '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5',
+      const quote = `"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5`;
+      const pay = {
+        quote: quote,
       };
-      // const quote_data = await postRequest("process_quote", dummy_data);
-      const quote_data = await postRequest("test", dummy_data);
-      return quote_data.data;
+      const response = await postRequest("process_quote", pay);
+      const data = response.data;
+      const ns = data.quote.split("--");
+      const quote_by = ns[1].split(",")[0];
+      const plain_quote_without_double_quotes = ns[0].replace(/"/g, "");
+      const without_right_space = plain_quote_without_double_quotes.trim();
+      const delayPromis = (ms) => new Promise((res) => setTimeout(res, ms));
+      await delayPromis(2000);
+      return {
+        quote: without_right_space,
+        quote_by: quote_by,
+        explanation: data.explanation,
+        error: false,
+      };
     }
   } catch (error) {
     // Log errors

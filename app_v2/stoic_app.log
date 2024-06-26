@@ -303,3 +303,473 @@ By accepting what is assigned to us and striving to act in unity with our inner 
 2024-06-26 19:31:39,000 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
 2024-06-26 19:31:39,001 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
 2024-06-26 19:31:40,146 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:36:33,065 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 19:36:33,065 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-26 19:36:33,073 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:36:33,990 - WARNING -  * Debugger is active!
+2024-06-26 19:36:33,999 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:36:46,813 - INFO - 127.0.0.1 - - [26/Jun/2024 19:36:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:36:46,815 - INFO - 127.0.0.1 - - [26/Jun/2024 19:36:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:36:47,086 - INFO - Received request for quote processing.
+2024-06-26 19:36:47,123 - INFO - Received request for quote processing.
+2024-06-26 19:36:52,655 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:36:52,658 - INFO - Generated explanation: Pupil, today I wish to speak to you about a most profound truth, one that lies in the essence of our very existence. Reflect upon this:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+Understand that to live a life in harmony with the divine, one must find contentment in the portion of life allotted to him. Each man has within him a guiding spirit, a 'daemon' as given by Zeus himself. This daemon represents a fragment of the divine essence, serving as your guardian and guide throughout life.
+
+When your soul aligns with the will of this inner guide, accepting all that comes your way with equanimity, you not only live in accordance with nature but also dwell in the presence of the gods. Satisfaction and virtue arise from this alignment, and thus you fulfill the true purpose of your existence.
+
+Seek always to be in tune with this divine portion within you, for in doing so, you will find peace and live a life that is both simple and sublime.
+2024-06-26 19:36:52,659 - INFO - Processed quote in 5.54 seconds. Cache miss.
+2024-06-26 19:36:52,659 - INFO - 127.0.0.1 - - [26/Jun/2024 19:36:52] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:36:54,120 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:36:54,122 - INFO - Generated explanation: Greetings, my pupil. Today I wish to share with you a thought that has long guided me in my journey through the challenges and responsibilities of life. Reflect upon these words:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+Within this quote lies a profound message about acceptance and alignment. To "live with the gods" signifies attaining a state of divine harmony. How does one achieve this? By showing the gods that your soul is satisfied with whatever fate has assigned to you. This satisfaction doesn't imply passive resignation but rather active engagement with your lot in life, while doing your utmost to honor the guiding inner voice—the 'daemon'—which the gods, through Zeus, have bestowed upon every individual as a guardian and guide.
+
+This daemon, or inner guiding spirit, represents a fragment of the divine within us. It is the part of ourselves that knows what is just, wise, and virtuous. When we listen to this daemon and act in accordance with its guidance, we not only honor the gods but also affirm that our soul is in harmony with the universe. This alignment with the divine will offers us peace and wisdom, regardless of external circumstances.
+
+Remember, true contentment arises from within, by aligning our actions and will with the essence of our being and the greater order of the cosmos. Thus, by living in accordance with our inner daemon, we live in the company of the gods themselves.
+2024-06-26 19:36:54,122 - INFO - Processed quote in 7.04 seconds. Cache miss.
+2024-06-26 19:36:54,123 - INFO - 127.0.0.1 - - [26/Jun/2024 19:36:54] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:17,121 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:17] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:17,122 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:17] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:17,371 - INFO - Received request for quote processing.
+2024-06-26 19:38:17,372 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:17] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:17,435 - INFO - Received request for quote processing.
+2024-06-26 19:38:17,436 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:17] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:32,373 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:32] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:32,374 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:32] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:32,641 - INFO - Received request for quote processing.
+2024-06-26 19:38:32,642 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:32] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:38:32,689 - INFO - Received request for quote processing.
+2024-06-26 19:38:32,690 - INFO - 127.0.0.1 - - [26/Jun/2024 19:38:32] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:39:59,734 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:39:59,734 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:39:59,735 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:40:00,998 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:40:02,120 - WARNING -  * Debugger is active!
+2024-06-26 19:40:02,127 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:40:17,996 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:17] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:17,998 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:17] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:18,262 - INFO - Received request for quote processing.
+2024-06-26 19:40:18,308 - INFO - Received request for quote processing.
+2024-06-26 19:40:24,156 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:40:24,157 - INFO - Generated explanation: Greetings, my pupil. Today, we reflect upon a passage from my own thoughts which I've inscribed in my journals. Let us meditate on these words:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+This passage speaks to the profound peace and alignment one finds when contentedly accepting one's fate and fulfilling the guidance of one's inner divine spirit—the daemon—bestowed by Zeus. By being satisfied with one’s assigned lot in life and acting in accordance with this inner guide, a person lives with a sense of divine companionship and fulfillment. 
+
+When I speak of living with the gods, I refer to a harmonious existence where our actions and inner state reflect the divine will. Satisfaction comes not from external circumstances but from within—from the acceptance of what is given and the conscientious following of the inner voice or wisdom that Zeus has given each of us as our protector and advisor. It’s a part of the divine; hence, following it aligns us with the will of the cosmos.
+
+In essence, it is about attuning oneself to the virtues and duties prescribed by our nature and the divine within us, embodying a life of virtue, integrity, and inner peace. The gods are honored not through grand gestures, but through the harmony of our inner state with our outer actions.
+
+Reflect upon this, and strive to cultivate contentment with your assigned path and attentiveness to your inner guide, for therein lies true fulfillment and divine fellowship.
+2024-06-26 19:40:24,158 - INFO - Processed quote in 5.85 seconds. Cache miss.
+2024-06-26 19:40:24,158 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:24,530 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:40:24,530 - INFO - Generated explanation: My dear pupil,
+
+Today, we contemplate a passage from my reflections on life and inner peace. The quote in question is:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+In this line, I speak of the ideal state of the soul that lives in harmony with the divine. To live with the gods, one must demonstrate to them that his soul is at peace with its lot in life. This means accepting with grace and dignity whatever fate or circumstances befall him. It is not about passive resignation but active consent and willingness to embrace life's assignments and challenges.
+
+Furthermore, I mention the ‘daemon,’ a divine inner spirit or guiding force bestowed upon each of us by Zeus. This daemon represents a fragment of the divine being, a part of Zeus himself, entrusted to guide and protect us. When a man's soul aligns itself with the will of this daemon, fulfilling its purpose and intent, he is, in essence, living in communion with the gods.
+
+Thus, contentment does not come from external acquisitions or status but from inner harmony and alignment with the divine will that resides within us. Embrace your assigned path with satisfaction and follow the guidance of your inner daemon, for this is the way to true peace and divine companionship.
+
+Reflect on these words today, and let them inform your actions and thoughts.
+
+With wisdom,
+Marcus
+2024-06-26 19:40:24,531 - INFO - Processed quote in 6.27 seconds. Cache miss.
+2024-06-26 19:40:24,531 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:54,073 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:54] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:54,389 - INFO - Received request for quote processing.
+2024-06-26 19:40:54,390 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:54] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:40:54,390 - INFO - Received request for quote processing.
+2024-06-26 19:40:54,391 - INFO - 127.0.0.1 - - [26/Jun/2024 19:40:54] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:08,288 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:08] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:08,602 - INFO - Received request for quote processing.
+2024-06-26 19:41:08,602 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:08] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:08,604 - INFO - Received request for quote processing.
+2024-06-26 19:41:08,604 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:08] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:30,790 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:30] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:31,100 - INFO - Received request for quote processing.
+2024-06-26 19:41:31,101 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:41:31,102 - INFO - Received request for quote processing.
+2024-06-26 19:41:31,103 - INFO - 127.0.0.1 - - [26/Jun/2024 19:41:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:42:05,866 - INFO - 127.0.0.1 - - [26/Jun/2024 19:42:05] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:42:06,178 - INFO - Received request for quote processing.
+2024-06-26 19:42:06,179 - INFO - 127.0.0.1 - - [26/Jun/2024 19:42:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:42:06,180 - INFO - Received request for quote processing.
+2024-06-26 19:42:06,180 - INFO - 127.0.0.1 - - [26/Jun/2024 19:42:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:43:46,643 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\requests\\models.py', reloading
+2024-06-26 19:43:47,793 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:43:48,779 - WARNING -  * Debugger is active!
+2024-06-26 19:43:48,792 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:46:10,180 - INFO - 127.0.0.1 - - [26/Jun/2024 19:46:10] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:46:10,182 - INFO - 127.0.0.1 - - [26/Jun/2024 19:46:10] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:46:10,446 - INFO - Received request for quote processing.
+2024-06-26 19:46:10,493 - INFO - Received request for quote processing.
+2024-06-26 19:46:14,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:46:14,237 - INFO - Generated explanation: Today's quote is:
+
+"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."
+
+In this reflection, we must understand that to live in harmony with the gods, one must be content with what life presents and what destiny assigns. This means accepting our circumstances without complaint, recognizing that what happens to us is part of a larger divine plan. The "daemon" mentioned here is an inner spirit or guiding force granted to us by Zeus, which serves as a portion of divine wisdom within ourselves. By aligning our actions and desires with this guiding force, we find peace and satisfaction. It's a reminder to trust in the natural order and to strive to fulfill our roles as bestowed by the gods, reflecting upon our existence with gratitude and integrity.
+2024-06-26 19:46:14,237 - INFO - Processed quote in 3.79 seconds. Cache miss.
+2024-06-26 19:46:14,237 - INFO - 127.0.0.1 - - [26/Jun/2024 19:46:14] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:46:17,012 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-06-26 19:46:17,013 - INFO - Generated explanation: Greetings, my pupil. Today, we shall contemplate a passage from my *Meditations*:
+
+**"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself."**
+
+This quote underscores the importance of acceptance and harmony with one’s fate, and the imperative of living in accordance with one's inner guide—the *daemon*, which I believe to be a divine fragment within each of us, bestowed by Zeus himself. 
+
+Consider that living "with the gods" is not necessarily about physical proximity or grand displays of piety. Rather, it is a state of being that arises from inner contentment and adherence to the path set before us. Your soul finds peace when it embraces its lot in life without resistance and follows the guidance of the inner voice that connects us to the divine. This inner voice or *daemon* acts as a compass, steering us towards righteousness and wisdom, as it is a portion of the divine.
+
+Reflect on your own life, and strive to align your actions with this inner guide. Accept your circumstances with grace, for in doing so, you partake in the divine harmony and live in the presence of the gods.
+
+Do you have any questions, my pupil?
+2024-06-26 19:46:17,013 - INFO - Processed quote in 6.52 seconds. Cache miss.
+2024-06-26 19:46:17,014 - INFO - 127.0.0.1 - - [26/Jun/2024 19:46:17] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:47:13,473 - INFO - 127.0.0.1 - - [26/Jun/2024 19:47:13] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:47:13,476 - INFO - 127.0.0.1 - - [26/Jun/2024 19:47:13] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:47:13,727 - INFO - Received request for quote processing.
+2024-06-26 19:47:13,728 - INFO - 127.0.0.1 - - [26/Jun/2024 19:47:13] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:47:13,791 - INFO - Received request for quote processing.
+2024-06-26 19:47:13,792 - INFO - 127.0.0.1 - - [26/Jun/2024 19:47:13] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:26,785 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:26] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:26,787 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:26] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:27,052 - INFO - Received request for quote processing.
+2024-06-26 19:52:27,053 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:27,099 - INFO - Received request for quote processing.
+2024-06-26 19:52:27,100 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:52,957 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:52] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:53,274 - INFO - Received request for quote processing.
+2024-06-26 19:52:53,275 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:53] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:52:53,275 - INFO - Received request for quote processing.
+2024-06-26 19:52:53,276 - INFO - 127.0.0.1 - - [26/Jun/2024 19:52:53] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:53:06,857 - INFO - 127.0.0.1 - - [26/Jun/2024 19:53:06] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:53:06,859 - INFO - 127.0.0.1 - - [26/Jun/2024 19:53:06] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:53:07,105 - INFO - Received request for quote processing.
+2024-06-26 19:53:07,106 - INFO - 127.0.0.1 - - [26/Jun/2024 19:53:07] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:53:07,169 - INFO - Received request for quote processing.
+2024-06-26 19:53:07,170 - INFO - 127.0.0.1 - - [26/Jun/2024 19:53:07] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:56:45,284 - INFO - 127.0.0.1 - - [26/Jun/2024 19:56:45] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:56:45,286 - INFO - 127.0.0.1 - - [26/Jun/2024 19:56:45] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:56:45,550 - INFO - Received request for quote processing.
+2024-06-26 19:56:45,551 - INFO - 127.0.0.1 - - [26/Jun/2024 19:56:45] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:56:45,597 - INFO - Received request for quote processing.
+2024-06-26 19:56:45,597 - INFO - 127.0.0.1 - - [26/Jun/2024 19:56:45] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:59:30,060 - INFO - 127.0.0.1 - - [26/Jun/2024 19:59:30] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:59:30,060 - INFO - 127.0.0.1 - - [26/Jun/2024 19:59:30] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 19:59:30,305 - INFO - Received request for quote processing.
+2024-06-26 19:59:30,306 - INFO - 127.0.0.1 - - [26/Jun/2024 19:59:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 19:59:30,369 - INFO - Received request for quote processing.
+2024-06-26 19:59:30,370 - INFO - 127.0.0.1 - - [26/Jun/2024 19:59:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:00:33,896 - INFO - 127.0.0.1 - - [26/Jun/2024 20:00:33] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:00:33,897 - INFO - 127.0.0.1 - - [26/Jun/2024 20:00:33] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:00:34,161 - INFO - Received request for quote processing.
+2024-06-26 20:00:34,162 - INFO - 127.0.0.1 - - [26/Jun/2024 20:00:34] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:00:34,208 - INFO - Received request for quote processing.
+2024-06-26 20:00:34,208 - INFO - 127.0.0.1 - - [26/Jun/2024 20:00:34] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:04,972 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:04] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:04,994 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:04] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:05,242 - INFO - Received request for quote processing.
+2024-06-26 20:04:05,242 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:05] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:05,289 - INFO - Received request for quote processing.
+2024-06-26 20:04:05,290 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:05] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:31,281 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:31] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:31,596 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:31] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:31,598 - INFO - Received request for quote processing.
+2024-06-26 20:04:31,599 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:31,904 - INFO - Received request for quote processing.
+2024-06-26 20:04:31,905 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:43,262 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:43] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:43,277 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:43] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:43,529 - INFO - Received request for quote processing.
+2024-06-26 20:04:43,530 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:43] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:43,583 - INFO - Received request for quote processing.
+2024-06-26 20:04:43,585 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:43] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:46,030 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:46,031 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:46,295 - INFO - Received request for quote processing.
+2024-06-26 20:04:46,295 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:04:46,342 - INFO - Received request for quote processing.
+2024-06-26 20:04:46,343 - INFO - 127.0.0.1 - - [26/Jun/2024 20:04:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:06:31,891 - INFO - 127.0.0.1 - - [26/Jun/2024 20:06:31] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:06:31,892 - INFO - 127.0.0.1 - - [26/Jun/2024 20:06:31] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:06:32,160 - INFO - Received request for quote processing.
+2024-06-26 20:06:32,160 - INFO - 127.0.0.1 - - [26/Jun/2024 20:06:32] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:06:32,208 - INFO - Received request for quote processing.
+2024-06-26 20:06:32,209 - INFO - 127.0.0.1 - - [26/Jun/2024 20:06:32] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:08:02,393 - INFO - 127.0.0.1 - - [26/Jun/2024 20:08:02] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:08:02,395 - INFO - 127.0.0.1 - - [26/Jun/2024 20:08:02] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:08:02,654 - INFO - Received request for quote processing.
+2024-06-26 20:08:02,655 - INFO - 127.0.0.1 - - [26/Jun/2024 20:08:02] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:08:02,702 - INFO - Received request for quote processing.
+2024-06-26 20:08:02,703 - INFO - 127.0.0.1 - - [26/Jun/2024 20:08:02] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:37,357 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:37] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:37,358 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:37] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:37,613 - INFO - Received request for quote processing.
+2024-06-26 20:09:37,613 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:37] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:37,675 - INFO - Received request for quote processing.
+2024-06-26 20:09:37,676 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:37] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:40,550 - INFO - Received request for quote processing.
+2024-06-26 20:09:40,551 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:40] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:40,862 - INFO - Received request for quote processing.
+2024-06-26 20:09:40,862 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:40] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:53,532 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:53] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:53,534 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:53] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:53,799 - INFO - Received request for quote processing.
+2024-06-26 20:09:53,800 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:53] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:09:53,846 - INFO - Received request for quote processing.
+2024-06-26 20:09:53,847 - INFO - 127.0.0.1 - - [26/Jun/2024 20:09:53] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:10:48,052 - INFO - 127.0.0.1 - - [26/Jun/2024 20:10:48] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:10:48,372 - INFO - Received request for quote processing.
+2024-06-26 20:10:48,372 - INFO - 127.0.0.1 - - [26/Jun/2024 20:10:48] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:10:48,373 - INFO - Received request for quote processing.
+2024-06-26 20:10:48,374 - INFO - 127.0.0.1 - - [26/Jun/2024 20:10:48] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:11:33,462 - INFO - 127.0.0.1 - - [26/Jun/2024 20:11:33] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:11:33,774 - INFO - Received request for quote processing.
+2024-06-26 20:11:33,775 - INFO - 127.0.0.1 - - [26/Jun/2024 20:11:33] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:11:33,776 - INFO - Received request for quote processing.
+2024-06-26 20:11:33,776 - INFO - 127.0.0.1 - - [26/Jun/2024 20:11:33] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:12:55,229 - INFO - 127.0.0.1 - - [26/Jun/2024 20:12:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:12:55,231 - INFO - 127.0.0.1 - - [26/Jun/2024 20:12:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:12:55,494 - INFO - Received request for quote processing.
+2024-06-26 20:12:55,495 - INFO - 127.0.0.1 - - [26/Jun/2024 20:12:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:12:55,542 - INFO - Received request for quote processing.
+2024-06-26 20:12:55,542 - INFO - 127.0.0.1 - - [26/Jun/2024 20:12:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:18,787 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:18] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:18,788 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:18] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:19,038 - INFO - Received request for quote processing.
+2024-06-26 20:14:19,038 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:19] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:19,102 - INFO - Received request for quote processing.
+2024-06-26 20:14:19,103 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:19] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:21,742 - INFO - Received request for quote processing.
+2024-06-26 20:14:21,743 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:21] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:22,062 - INFO - Received request for quote processing.
+2024-06-26 20:14:22,063 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:22] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:25,069 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:25] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:25,384 - INFO - Received request for quote processing.
+2024-06-26 20:14:25,385 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:25] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:25,386 - INFO - Received request for quote processing.
+2024-06-26 20:14:25,386 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:25] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:27,569 - INFO - Received request for quote processing.
+2024-06-26 20:14:27,570 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:27,889 - INFO - Received request for quote processing.
+2024-06-26 20:14:27,889 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:30,169 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:30] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:30,485 - INFO - Received request for quote processing.
+2024-06-26 20:14:30,485 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:30,486 - INFO - Received request for quote processing.
+2024-06-26 20:14:30,487 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:35,741 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:35] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:36,052 - INFO - Received request for quote processing.
+2024-06-26 20:14:36,053 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:36] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:36,054 - INFO - Received request for quote processing.
+2024-06-26 20:14:36,054 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:36] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:38,898 - INFO - Received request for quote processing.
+2024-06-26 20:14:38,899 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:38] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:14:39,207 - INFO - Received request for quote processing.
+2024-06-26 20:14:39,208 - INFO - 127.0.0.1 - - [26/Jun/2024 20:14:39] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:23,606 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:23,967 - INFO - Received request for quote processing.
+2024-06-26 20:15:23,968 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:23] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:23,969 - INFO - Received request for quote processing.
+2024-06-26 20:15:23,970 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:23] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:27,639 - INFO - Received request for quote processing.
+2024-06-26 20:15:27,640 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:27,953 - INFO - Received request for quote processing.
+2024-06-26 20:15:27,954 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:27] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:30,301 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:30] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:30,611 - INFO - Received request for quote processing.
+2024-06-26 20:15:30,612 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:30,613 - INFO - Received request for quote processing.
+2024-06-26 20:15:30,613 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:30] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:41,674 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:41] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:41,982 - INFO - Received request for quote processing.
+2024-06-26 20:15:41,983 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:41] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:41,984 - INFO - Received request for quote processing.
+2024-06-26 20:15:41,985 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:41] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:44,754 - INFO - Received request for quote processing.
+2024-06-26 20:15:44,754 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:44] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:15:45,063 - INFO - Received request for quote processing.
+2024-06-26 20:15:45,063 - INFO - 127.0.0.1 - - [26/Jun/2024 20:15:45] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:44,370 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:44] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:44,676 - INFO - Received request for quote processing.
+2024-06-26 20:16:44,677 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:44] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:44,679 - INFO - Received request for quote processing.
+2024-06-26 20:16:44,679 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:44] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:47,286 - INFO - Received request for quote processing.
+2024-06-26 20:16:47,287 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:47] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:47,597 - INFO - Received request for quote processing.
+2024-06-26 20:16:47,598 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:47] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:55,060 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:55,374 - INFO - Received request for quote processing.
+2024-06-26 20:16:55,375 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:55,376 - INFO - Received request for quote processing.
+2024-06-26 20:16:55,377 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:57,687 - INFO - Received request for quote processing.
+2024-06-26 20:16:57,688 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:57] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:16:58,004 - INFO - Received request for quote processing.
+2024-06-26 20:16:58,005 - INFO - 127.0.0.1 - - [26/Jun/2024 20:16:58] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:00,666 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:00] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:00,984 - INFO - Received request for quote processing.
+2024-06-26 20:17:00,985 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:00] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:00,986 - INFO - Received request for quote processing.
+2024-06-26 20:17:00,986 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:00] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:03,711 - INFO - Received request for quote processing.
+2024-06-26 20:17:03,712 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:03] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:04,021 - INFO - Received request for quote processing.
+2024-06-26 20:17:04,022 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:04] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:28,366 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:28] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:28,681 - INFO - Received request for quote processing.
+2024-06-26 20:17:28,681 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:28] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:17:28,682 - INFO - Received request for quote processing.
+2024-06-26 20:17:28,683 - INFO - 127.0.0.1 - - [26/Jun/2024 20:17:28] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:01,075 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:01] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:01,393 - INFO - Received request for quote processing.
+2024-06-26 20:18:01,394 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:01] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:01,394 - INFO - Received request for quote processing.
+2024-06-26 20:18:01,394 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:01] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:04,120 - INFO - Received request for quote processing.
+2024-06-26 20:18:04,121 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:04] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:04,429 - INFO - Received request for quote processing.
+2024-06-26 20:18:04,429 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:04] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:07,732 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:07] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:07,734 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:07] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:07,998 - INFO - Received request for quote processing.
+2024-06-26 20:18:07,999 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:07] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:08,044 - INFO - Received request for quote processing.
+2024-06-26 20:18:08,046 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:08] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:47,132 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:47] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:47,448 - INFO - Received request for quote processing.
+2024-06-26 20:18:47,449 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:47] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:47,450 - INFO - Received request for quote processing.
+2024-06-26 20:18:47,451 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:47] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:55,757 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:56,070 - INFO - Received request for quote processing.
+2024-06-26 20:18:56,071 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:56] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:56,072 - INFO - Received request for quote processing.
+2024-06-26 20:18:56,073 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:56] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:18:59,848 - INFO - Received request for quote processing.
+2024-06-26 20:18:59,849 - INFO - 127.0.0.1 - - [26/Jun/2024 20:18:59] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:00,162 - INFO - Received request for quote processing.
+2024-06-26 20:19:00,162 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:00] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:02,775 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:02] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:03,090 - INFO - Received request for quote processing.
+2024-06-26 20:19:03,091 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:03] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:03,092 - INFO - Received request for quote processing.
+2024-06-26 20:19:03,092 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:03] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:06,462 - INFO - Received request for quote processing.
+2024-06-26 20:19:06,463 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:06,772 - INFO - Received request for quote processing.
+2024-06-26 20:19:06,773 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:21,490 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:21] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:21,491 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:21] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:21,753 - INFO - Received request for quote processing.
+2024-06-26 20:19:21,754 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:21] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:21,799 - INFO - Received request for quote processing.
+2024-06-26 20:19:21,800 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:21] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:25,884 - INFO - Received request for quote processing.
+2024-06-26 20:19:25,884 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:25] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:19:26,194 - INFO - Received request for quote processing.
+2024-06-26 20:19:26,195 - INFO - 127.0.0.1 - - [26/Jun/2024 20:19:26] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,078 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,079 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,343 - INFO - Received request for quote processing.
+2024-06-26 20:20:23,344 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,390 - INFO - Received request for quote processing.
+2024-06-26 20:20:23,391 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,765 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:23,766 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:24,028 - INFO - Received request for quote processing.
+2024-06-26 20:20:24,029 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:24,075 - INFO - Received request for quote processing.
+2024-06-26 20:20:24,075 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:26,171 - INFO - Received request for quote processing.
+2024-06-26 20:20:26,172 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:26] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:26,485 - INFO - Received request for quote processing.
+2024-06-26 20:20:26,486 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:26] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:28,938 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:28] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:28,940 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:28] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:29,202 - INFO - Received request for quote processing.
+2024-06-26 20:20:29,203 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:29,247 - INFO - Received request for quote processing.
+2024-06-26 20:20:29,248 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:31,844 - INFO - Received request for quote processing.
+2024-06-26 20:20:31,845 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:20:32,160 - INFO - Received request for quote processing.
+2024-06-26 20:20:32,160 - INFO - 127.0.0.1 - - [26/Jun/2024 20:20:32] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:46,440 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:46,441 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:46] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:46,702 - INFO - Received request for quote processing.
+2024-06-26 20:21:46,702 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:46,749 - INFO - Received request for quote processing.
+2024-06-26 20:21:46,750 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:46] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:55,308 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:55,622 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:55] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:55,623 - INFO - Received request for quote processing.
+2024-06-26 20:21:55,623 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:21:55,931 - INFO - Received request for quote processing.
+2024-06-26 20:21:55,932 - INFO - 127.0.0.1 - - [26/Jun/2024 20:21:55] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:06,056 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:06] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:06,057 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:06] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:06,319 - INFO - Received request for quote processing.
+2024-06-26 20:22:06,320 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:06,367 - INFO - Received request for quote processing.
+2024-06-26 20:22:06,368 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:06] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:31,236 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:31] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:31,541 - INFO - Received request for quote processing.
+2024-06-26 20:22:31,542 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:22:31,543 - INFO - Received request for quote processing.
+2024-06-26 20:22:31,543 - INFO - 127.0.0.1 - - [26/Jun/2024 20:22:31] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:24,644 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:24] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:24,955 - INFO - Received request for quote processing.
+2024-06-26 20:23:24,956 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:24,957 - INFO - Received request for quote processing.
+2024-06-26 20:23:24,957 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:32,791 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:32] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:33,096 - INFO - Received request for quote processing.
+2024-06-26 20:23:33,097 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:33] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:23:33,098 - INFO - Received request for quote processing.
+2024-06-26 20:23:33,098 - INFO - 127.0.0.1 - - [26/Jun/2024 20:23:33] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:11,329 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:11] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:11,633 - INFO - Received request for quote processing.
+2024-06-26 20:24:11,633 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:11] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:11,634 - INFO - Received request for quote processing.
+2024-06-26 20:24:11,635 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:11] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:29,270 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:29] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:29,588 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:29] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:29,589 - INFO - Received request for quote processing.
+2024-06-26 20:24:29,590 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:24:29,900 - INFO - Received request for quote processing.
+2024-06-26 20:24:29,900 - INFO - 127.0.0.1 - - [26/Jun/2024 20:24:29] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:22,180 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:22] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:22,181 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:22] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:22,443 - INFO - Received request for quote processing.
+2024-06-26 20:25:22,444 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:22] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:22,490 - INFO - Received request for quote processing.
+2024-06-26 20:25:22,490 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:22] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:23,753 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:23,769 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:23] "OPTIONS /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:24,018 - INFO - Received request for quote processing.
+2024-06-26 20:25:24,018 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:24,065 - INFO - Received request for quote processing.
+2024-06-26 20:25:24,066 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:24,998 - INFO - Received request for quote processing.
+2024-06-26 20:25:24,999 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:24] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 20:25:25,309 - INFO - Received request for quote processing.
+2024-06-26 20:25:25,310 - INFO - 127.0.0.1 - - [26/Jun/2024 20:25:25] "POST /process_quote HTTP/1.1" 200 -

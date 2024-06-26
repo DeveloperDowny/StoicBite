@@ -10,13 +10,13 @@ import styles from "./QuoteExplain.module.css";
 
 import React from "react";
 
-const QuoteExplain = ({ explaination }) => {
+const QuoteExplain = ({ explanation }) => {
   const [ns, setNs] = useState([]);
   useEffect(() => {
-    if (!explaination) return;
-    const ns = preProcessFunc(explaination);
+    if (!explanation) return;
+    const ns = preProcessFunc(explanation);
     setNs(ns);
-  }, [explaination]);
+  }, [explanation]);
 
   useEffect(() => {
     for (let i = 0; i < ns.length; i++) {
@@ -56,6 +56,6 @@ const QuoteExplain = ({ explaination }) => {
   );
 };
 
-const preProcessFunc = (explaination) =>
-  explaination.replace("\n\n", "\n").split("\n");
+const preProcessFunc = (explanation) =>
+  explanation.replace("\n\n", "\n").split("\n");
 export default QuoteExplain;

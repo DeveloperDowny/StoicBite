@@ -23,7 +23,7 @@ const QuotePage = () => {
                 data: {
                   quote: quote,
                   quote_by: quote_by,
-                  explaination: explaination,
+                  explanation: explanation,
                 },
               });
             }, 2000);
@@ -69,7 +69,7 @@ const QuotePage = () => {
       ref={parentContRef}
     >
       <QuoteCont quote={data.quote} quote_by={data.quote_by} />
-      <QuoteExplain explaination={data.explaination} />
+      <QuoteExplain explanation={data.explanation} />
     </div>
   );
 };
