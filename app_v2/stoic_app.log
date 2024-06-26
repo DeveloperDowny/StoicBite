@@ -217,3 +217,89 @@ By accepting what is assigned to us and striving to act in unity with our inner 
 2024-06-26 19:20:56,592 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
 2024-06-26 19:20:56,593 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
 2024-06-26 19:20:57,727 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:20:58,797 - WARNING -  * Debugger is active!
+2024-06-26 19:20:58,813 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:21:05,152 - INFO - 127.0.0.1 - - [26/Jun/2024 19:21:05] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:21:05,153 - INFO - 127.0.0.1 - - [26/Jun/2024 19:21:05] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:21:05,419 - INFO - 127.0.0.1 - - [26/Jun/2024 19:21:05] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:21:05,468 - INFO - 127.0.0.1 - - [26/Jun/2024 19:21:05] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:23:31,698 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:31] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:23:31,700 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:31] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:23:31,965 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:31] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:23:32,014 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:32] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:23:42,535 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:42] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:23:42,538 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:42] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:23:42,800 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:42] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:23:42,844 - INFO - 127.0.0.1 - - [26/Jun/2024 19:23:42] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:24:11,106 - INFO - 127.0.0.1 - - [26/Jun/2024 19:24:11] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:24:11,108 - INFO - 127.0.0.1 - - [26/Jun/2024 19:24:11] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:24:11,355 - INFO - 127.0.0.1 - - [26/Jun/2024 19:24:11] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:24:11,418 - INFO - 127.0.0.1 - - [26/Jun/2024 19:24:11] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:25:31,263 - INFO - 127.0.0.1 - - [26/Jun/2024 19:25:31] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:25:31,265 - INFO - 127.0.0.1 - - [26/Jun/2024 19:25:31] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:25:31,518 - INFO - 127.0.0.1 - - [26/Jun/2024 19:25:31] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:25:31,580 - INFO - 127.0.0.1 - - [26/Jun/2024 19:25:31] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:25:58,966 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:25:58,967 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:25:58,967 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:00,177 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:26:01,428 - WARNING -  * Debugger is active!
+2024-06-26 19:26:01,440 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:26:07,507 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:07] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:07,508 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:07] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:07,772 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:07] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:07,819 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:07] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:10,808 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:10] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:11,114 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:11] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:16,093 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:16] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:16,096 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:16] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:16,347 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:16] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:16,409 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:16] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:30,534 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:30,534 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:30,534 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:31,661 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:26:32,653 - WARNING -  * Debugger is active!
+2024-06-26 19:26:32,661 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:26:33,863 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:33,864 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:33,864 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:26:35,048 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-26 19:26:36,400 - WARNING -  * Debugger is active!
+2024-06-26 19:26:36,415 - INFO -  * Debugger PIN: 137-291-194
+2024-06-26 19:26:36,427 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:36] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:36,430 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:36] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:41,434 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:41] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:41,736 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:41] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:45,791 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:45] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:45,793 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:45] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:26:51,058 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:51] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:26:51,106 - INFO - 127.0.0.1 - - [26/Jun/2024 19:26:51] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:23,264 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:23] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:23,266 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:23] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:28,529 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:28] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:28,575 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:28] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:31,702 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:31] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:32,010 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:32] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:37,013 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:37] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:37,276 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:37] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:43,394 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:43] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:43,706 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:43] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:28:48,708 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:48] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:28:49,019 - INFO - 127.0.0.1 - - [26/Jun/2024 19:28:49] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:00,378 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:00,379 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:00] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:05,640 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:05] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:05,688 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:05] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:05,754 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:05] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:05,755 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:05] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:11,009 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:11] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:11,071 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:11] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:49,571 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:49] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:49,880 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:49] "OPTIONS /test HTTP/1.1" 200 -
+2024-06-26 19:30:54,882 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:54] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:30:55,144 - INFO - 127.0.0.1 - - [26/Jun/2024 19:30:55] "POST /test HTTP/1.1" 200 -
+2024-06-26 19:31:39,000 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:31:39,000 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:31:39,001 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-26 19:31:40,146 - INFO -  * Restarting with watchdog (windowsapi)

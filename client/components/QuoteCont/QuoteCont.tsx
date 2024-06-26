@@ -9,8 +9,6 @@ gsap.registerPlugin(ScrollTrigger);
 import Image from "next/image";
 import styles from "./QuoteCont.module.css";
 
-import React from "react";
-
 const QuoteCont = ({ quote, quote_by }) => {
   const boxRef = useRef(null);
   const quoteByRef = useRef(null);
@@ -66,6 +64,11 @@ const QuoteCont = ({ quote, quote_by }) => {
           alt={""}
         />
       </div>
+      {!quote && (
+        <div className={styles.main_cont}>
+          <div className={styles.quote}>Loading...</div>
+        </div>
+      )}
       {quote && (
         <div className={styles.main_cont}>
           <div className={styles.quote} ref={boxRef}>
