@@ -1,9 +1,73 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
 import Image from "next/image";
 import styles from "./QuoteCont.module.css";
 
 import React from "react";
 
 const QuoteCont = () => {
+  const boxRef = useRef(null);
+  const quoteByRef = useRef(null);
+
+  useEffect(() => {
+    const box = boxRef.current;
+
+    gsap.fromTo(
+      box,
+      {
+        opacity: 0,
+        y: 10,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: box,
+          start: "top bottom-=100",
+          end: "bottom center",
+          // scrub: true,
+          markers: true, // for debugging
+          // toggleActions: "play none none reverse",
+        },
+      }
+    );
+
+    // animates with delay quoteByRef
+    gsap.fromTo(
+      quoteByRef.current,
+      {
+        opacity: 0,
+        y: 10,
+      },
+      {
+        opacity: 1,
+        delay: 0.5,
+        duration: 1,
+        scrollTrigger: {
+          trigger: box,
+          start: "top bottom-=100",
+          end: "bottom center",
+          // scrub: true,
+          markers: true, // for debugging
+          // toggleActions: "play none none reverse",
+        },
+      }
+    );
+
+    // Clean up the animation when component unmounts
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
+
   return (
     <div className={styles.parent_cont}>
       <div className={styles.img_cont}>
@@ -23,8 +87,12 @@ const QuoteCont = () => {
         />
       </div>
       <div className={styles.main_cont}>
-        <div className={styles.quote}>{quote}</div>
-        <div className={styles.quote_by}>— {quote_by}</div>
+        <div className={styles.quote} ref={boxRef}>
+          {quote}
+        </div>
+        <div className={styles.quote_by} ref={quoteByRef}>
+          — {quote_by}
+        </div>
       </div>
     </div>
   );

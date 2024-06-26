@@ -1,10 +1,51 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
 import styles from "./QuoteExplain.module.css";
 
 import React from "react";
 
 const QuoteExplain = () => {
+  const boxRef = useRef(null);
+
+  useEffect(() => {
+    const box = boxRef.current;
+
+    gsap.fromTo(
+      box,
+      {
+        opacity: 0,
+        y: 100,
+      },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: box,
+          start: "top bottom-=100",
+          end: "bottom center",
+          // scrub: true,
+          markers: true, // for debugging
+          // toggleActions: "play none none reverse",
+        },
+      }
+    );
+
+    // Clean up the animation when component unmounts
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
+  }, []);
+
   return (
-    <div className={styles.explain_cont}>
+    <div className={styles.explain_cont} ref={boxRef}>
       {ns.map((n, i) => {
         return (
           <p key={i} className={styles.explain}>
