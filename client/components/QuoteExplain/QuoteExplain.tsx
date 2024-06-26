@@ -14,7 +14,9 @@ const QuoteExplain = ({ explanation }) => {
   const [ns, setNs] = useState([]);
   useEffect(() => {
     if (!explanation) return;
-    const ns = preProcessFunc(explanation);
+    let ns = preProcessFunc(explanation);
+    // filter blank entries
+    ns = ns.filter((n) => n.trim() !== "");
     setNs(ns);
   }, [explanation]);
 

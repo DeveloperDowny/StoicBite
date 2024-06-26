@@ -29,7 +29,7 @@ export const patchRequest = (URL, payload) =>
 export const deleteRequest = (URL) =>
   axiosClient.delete(`/${URL}`).then((response) => response);
 
-export const kdm = true;
+export const kdm = false;
 export const fetchQuote = async () => {
   try {
     if (kdm) {
@@ -38,19 +38,12 @@ export const fetchQuote = async () => {
         quote: quote,
       };
       const response = await postRequest("process_quote", pay);
-      const data = response.data;
-      const ns = data.quote.split("--");
-      const quote_by = ns[1].split(",")[0];
-      const plain_quote_without_double_quotes = ns[0].replace(/"/g, "");
-      const without_right_space = plain_quote_without_double_quotes.trim();
       const delayPromis = (ms) => new Promise((res) => setTimeout(res, ms));
       await delayPromis(2000);
-      return {
-        quote: without_right_space,
-        quote_by: quote_by,
-        explanation: data.explanation,
-        error: false,
-      };
+      return parseQuoteResponse(response);
+    } else {
+      const response = await getRequest("daily_stoic");
+      return parseQuoteResponse(response);
     }
   } catch (error) {
     // Log errors
@@ -62,3 +55,17 @@ export const fetchQuote = async () => {
     };
   }
 };
+function parseQuoteResponse(response) {
+  const data = response.data;
+  const ns = data.quote.split("--");
+  const quote_by = ns[1].split(",")[0];
+  const plain_quote_without_double_quotes = ns[0].replace(/"/g, "");
+  const without_right_space = plain_quote_without_double_quotes.trim();
+
+  return {
+    quote: without_right_space,
+    quote_by: quote_by,
+    explanation: data.explanation,
+    error: false,
+  };
+}
