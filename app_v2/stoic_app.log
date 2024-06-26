@@ -66,3 +66,6 @@ By accepting what is assigned to us and striving to act in unity with our inner 
 2024-06-24 01:39:19,492 - INFO - 127.0.0.1 - - [24/Jun/2024 01:39:19] "POST /process_quote HTTP/1.1" 200 -
 2024-06-24 01:39:19,679 - INFO - Received request for quote processing.
 2024-06-24 01:39:19,680 - INFO - 127.0.0.1 - - [24/Jun/2024 01:39:19] "POST /process_quote HTTP/1.1" 200 -
+2024-06-26 16:25:21,884 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-26 16:25:21,885 - INFO - [33mPress CTRL+C to quit[0m
