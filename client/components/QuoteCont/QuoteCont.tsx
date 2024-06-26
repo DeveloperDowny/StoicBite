@@ -35,7 +35,6 @@ const QuoteCont = () => {
       quoteByRef.current,
       {
         opacity: 0,
-        y: 10,
       },
       {
         opacity: 1,

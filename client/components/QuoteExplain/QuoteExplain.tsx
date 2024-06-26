@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-// Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 import styles from "./QuoteExplain.module.css";
@@ -13,35 +12,11 @@ import React from "react";
 
 const QuoteExplain = () => {
   useEffect(() => {
-    // Clean up the animation when component unmounts
-
-    // gsap.fromTo(
-    //   ".explain_cont .p0",
-    //   {
-    //     opacity: 0,
-    //     // y: 10,
-    //   },
-    //   {
-    //     opacity: 1,
-    //     y: 0,
-    //     duration: 1,
-    //     scrollTrigger: {
-    //       trigger: box,
-    //       start: "top bottom-=100",
-    //       end: "bottom center",
-    //       // scrub: true,
-    //       markers: true, // for debugging
-    //       // toggleActions: "play none none reverse",
-    //     },
-    //     stagger: 0.2,
-    //   }
-    // );
     for (let i = 0; i < ns.length; i++) {
       gsap.fromTo(
         `.explain_cont .p${i}`,
         {
           opacity: 0,
-          // y: 10,
         },
         {
           opacity: 1,
@@ -51,9 +26,6 @@ const QuoteExplain = () => {
             trigger: `.explain_cont .p${i}`,
             start: "top bottom-=50",
             end: "bottom center",
-            // scrub: true,
-            // markers: true, // for debugging
-            // toggleActions: "play none none reverse",
           },
           stagger: 0.2,
         }
