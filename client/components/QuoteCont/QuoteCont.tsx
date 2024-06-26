@@ -68,6 +68,14 @@ const QuoteCont = () => {
       </div>
       <div className={styles.main_cont}>
         <div className={styles.quote} ref={boxRef}>
+          <div className={styles.quote_img_cont}>
+            <Image
+              src="/images/quote_img.png"
+              layout="fill"
+              objectFit="cover"
+              alt={""}
+            />
+          </div>
           {quote}
         </div>
         <div className={styles.quote_by} ref={quoteByRef}>
