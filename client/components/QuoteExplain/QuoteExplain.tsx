@@ -32,7 +32,6 @@ const QuoteExplain = ({ explaination }) => {
             trigger: `.explain_cont .p${i}`,
             start: "top bottom-=50",
             end: "bottom center",
-            markers: true,
           },
           stagger: 0.2,
         }

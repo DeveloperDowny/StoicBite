@@ -11,7 +11,9 @@ import styles from "./QuoteCont.module.css";
 
 import React from "react";
 
-const QuoteCont = () => {
+const QuoteCont = ({
+  quote, quote_by
+}) => {
   const boxRef = useRef(null);
   const quoteByRef = useRef(null);
 
@@ -86,8 +88,5 @@ const QuoteCont = () => {
   );
 };
 
-const quote = `And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself.`;
-
-const quote_by = `Marcus Aurelius`;
 
 export default QuoteCont;
