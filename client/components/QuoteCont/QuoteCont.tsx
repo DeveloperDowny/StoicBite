@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-// Register ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 import Image from "next/image";
@@ -29,18 +28,9 @@ const QuoteCont = () => {
         opacity: 1,
         y: 0,
         duration: 1,
-        scrollTrigger: {
-          trigger: box,
-          start: "top bottom-=100",
-          end: "bottom center",
-          // scrub: true,
-          markers: true, // for debugging
-          // toggleActions: "play none none reverse",
-        },
       }
     );
 
-    // animates with delay quoteByRef
     gsap.fromTo(
       quoteByRef.current,
       {
@@ -51,18 +41,9 @@ const QuoteCont = () => {
         opacity: 1,
         delay: 0.5,
         duration: 1,
-        scrollTrigger: {
-          trigger: box,
-          start: "top bottom-=100",
-          end: "bottom center",
-          // scrub: true,
-          markers: true, // for debugging
-          // toggleActions: "play none none reverse",
-        },
       }
     );
 
-    // Clean up the animation when component unmounts
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };

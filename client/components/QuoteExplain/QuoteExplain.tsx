@@ -12,43 +12,63 @@ import styles from "./QuoteExplain.module.css";
 import React from "react";
 
 const QuoteExplain = () => {
-  const boxRef = useRef(null);
-
   useEffect(() => {
-    const box = boxRef.current;
-
-    gsap.fromTo(
-      box,
-      {
-        opacity: 0,
-        y: 100,
-      },
-      {
-        opacity: 1,
-        y: 0,
-        duration: 1,
-        scrollTrigger: {
-          trigger: box,
-          start: "top bottom-=100",
-          end: "bottom center",
-          // scrub: true,
-          markers: true, // for debugging
-          // toggleActions: "play none none reverse",
-        },
-      }
-    );
-
     // Clean up the animation when component unmounts
+
+    // gsap.fromTo(
+    //   ".explain_cont .p0",
+    //   {
+    //     opacity: 0,
+    //     // y: 10,
+    //   },
+    //   {
+    //     opacity: 1,
+    //     y: 0,
+    //     duration: 1,
+    //     scrollTrigger: {
+    //       trigger: box,
+    //       start: "top bottom-=100",
+    //       end: "bottom center",
+    //       // scrub: true,
+    //       markers: true, // for debugging
+    //       // toggleActions: "play none none reverse",
+    //     },
+    //     stagger: 0.2,
+    //   }
+    // );
+    for (let i = 0; i < ns.length; i++) {
+      gsap.fromTo(
+        `.explain_cont .p${i}`,
+        {
+          opacity: 0,
+          // y: 10,
+        },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          scrollTrigger: {
+            trigger: `.explain_cont .p${i}`,
+            start: "top bottom-=50",
+            end: "bottom center",
+            // scrub: true,
+            // markers: true, // for debugging
+            // toggleActions: "play none none reverse",
+          },
+          stagger: 0.2,
+        }
+      );
+    }
     return () => {
       ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
     };
   }, []);
 
   return (
-    <div className={styles.explain_cont} ref={boxRef}>
+    <div className={`${styles.explain_cont} explain_cont`}>
       {ns.map((n, i) => {
         return (
-          <p key={i} className={styles.explain}>
+          <p key={i} className={`${styles.explain} p${i}`}>
             {n}
           </p>
         );
