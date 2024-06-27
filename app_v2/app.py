@@ -89,10 +89,10 @@ def generate_response(quote):
     
 fallback_res = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
 
-dumm_stale_1 = {'quote': "dummy quote 1", 'explanation': "dummy explanation 1"}
-dumm_stale_2 = {'quote': "dummy quote 2", 'explanation': "dummy explanation 2"}
-dumm_stale_3 = {'quote': "dummy quote 3", 'explanation': "dummy explanation 3"}
-
+dumm_stale_1 = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': "dummy explanation 1"}
+dumm_stale_2 = {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': "dummy explanation 2"}
+dumm_stale_3 = {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': "dummy explanation 3"}
+ 
 ready_quote_queue = deque()
 ready_quote_queue.append(fallback_res)
 
@@ -116,9 +116,10 @@ def daily_stoic():
                 for _ in range(5):
                     time.sleep(1)
                     logging.info(".")
-                logging.info("Long task done")
+                logging.info("Long task done") 
+                ml = ['"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7'] 
                 new_res = {
-                    "quote": f"{random.choice(['quote 11', 'quote 24', 'quote 35'])}",
+                    "quote": f"{random.choice(ml)}",
                     "explanation": f"{random.choice(['explanation 11', 'explanation 24', 'explanation 35'])}"
                 }
                 ready_quote_queue.append(new_res)

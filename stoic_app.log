@@ -1145,3 +1145,253 @@ By adhering to these principles, we can live our lives in a manner that is both 
 2024-06-27 16:22:23,853 - INFO - .
 2024-06-27 16:22:23,853 - INFO - Long task done
 2024-06-27 16:22:23,853 - INFO - Ready queue updated
+2024-06-27 16:23:07,099 - INFO - Starting long task
+2024-06-27 16:23:07,099 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:23:07,099 - INFO - Your params: {}
+2024-06-27 16:23:07,102 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:07,364 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 11'}
+2024-06-27 16:23:07,364 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:08,103 - INFO - .
+2024-06-27 16:23:08,183 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:23:08,184 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:08,501 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:23:08,502 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:09,104 - INFO - .
+2024-06-27 16:23:10,104 - INFO - .
+2024-06-27 16:23:11,105 - INFO - .
+2024-06-27 16:23:11,859 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 35', 'explanation': 'explanation 24'}
+2024-06-27 16:23:11,860 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:11] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:12,108 - INFO - .
+2024-06-27 16:23:12,108 - INFO - Long task done
+2024-06-27 16:23:12,108 - INFO - Ready queue updated
+2024-06-27 16:23:12,179 - INFO - Starting long task
+2024-06-27 16:23:12,180 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:23:12,180 - INFO - Your params: {}
+2024-06-27 16:23:12,180 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:12,828 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:23:12,829 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:13,144 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:23:13,144 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:13] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:13,181 - INFO - .
+2024-06-27 16:23:14,183 - INFO - .
+2024-06-27 16:23:15,183 - INFO - .
+2024-06-27 16:23:16,184 - INFO - .
+2024-06-27 16:23:17,184 - INFO - .
+2024-06-27 16:23:17,185 - INFO - Long task done
+2024-06-27 16:23:17,185 - INFO - Ready queue updated
+2024-06-27 16:23:36,657 - INFO - Starting long task
+2024-06-27 16:23:36,657 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:23:36,657 - INFO - Your params: {}
+2024-06-27 16:23:36,658 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:36] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:36,981 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 35', 'explanation': 'explanation 24'}
+2024-06-27 16:23:36,981 - INFO - 127.0.0.1 - - [27/Jun/2024 16:23:36] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:23:37,658 - INFO - .
+2024-06-27 16:23:38,659 - INFO - .
+2024-06-27 16:23:39,660 - INFO - .
+2024-06-27 16:23:40,661 - INFO - .
+2024-06-27 16:23:41,661 - INFO - .
+2024-06-27 16:23:41,661 - INFO - Long task done
+2024-06-27 16:23:41,661 - INFO - Ready queue updated
+2024-06-27 16:24:16,061 - INFO - Starting long task
+2024-06-27 16:24:16,061 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:24:16,061 - INFO - Your params: {}
+2024-06-27 16:24:16,062 - INFO - 127.0.0.1 - - [27/Jun/2024 16:24:16] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:24:16,375 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:24:16,375 - INFO - 127.0.0.1 - - [27/Jun/2024 16:24:16] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:24:17,063 - INFO - .
+2024-06-27 16:24:18,064 - INFO - .
+2024-06-27 16:24:19,065 - INFO - .
+2024-06-27 16:24:20,065 - INFO - .
+2024-06-27 16:24:21,066 - INFO - .
+2024-06-27 16:24:21,066 - INFO - Long task done
+2024-06-27 16:24:21,066 - INFO - Ready queue updated
+2024-06-27 17:04:04,144 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:04:04,144 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:04:04,145 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:04:05,336 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 17:04:06,462 - WARNING -  * Debugger is active!
+2024-06-27 17:04:06,470 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 17:05:21,300 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:21,300 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:21,301 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:22,472 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 17:05:23,694 - WARNING -  * Debugger is active!
+2024-06-27 17:05:23,700 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 17:05:42,469 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:42,470 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:42,471 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:05:43,617 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 17:05:44,720 - WARNING -  * Debugger is active!
+2024-06-27 17:05:44,726 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 17:05:49,293 - INFO - Starting long task
+2024-06-27 17:05:49,293 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:05:49,293 - INFO - Your params: {}
+2024-06-27 17:05:49,294 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:49] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:49,544 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'dummy explanation 3'}
+2024-06-27 17:05:49,544 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:49] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:50,295 - INFO - .
+2024-06-27 17:05:51,297 - INFO - .
+2024-06-27 17:05:52,172 - INFO - Successful response from stale_quote_queue: {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': 'dummy explanation 2'}
+2024-06-27 17:05:52,173 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:52] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:52,298 - INFO - .
+2024-06-27 17:05:52,483 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:05:52,484 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:52] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:53,299 - INFO - .
+2024-06-27 17:05:54,300 - INFO - .
+2024-06-27 17:05:54,300 - INFO - Long task done
+2024-06-27 17:05:54,300 - INFO - Ready queue updated
+2024-06-27 17:05:55,902 - INFO - Starting long task
+2024-06-27 17:05:55,902 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 24', 'explanation': 'explanation 24'}
+2024-06-27 17:05:55,902 - INFO - Your params: {}
+2024-06-27 17:05:55,903 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:55] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:56,220 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'dummy explanation 1'}
+2024-06-27 17:05:56,221 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:56] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:56,904 - INFO - .
+2024-06-27 17:05:57,904 - INFO - .
+2024-06-27 17:05:58,905 - INFO - .
+2024-06-27 17:05:59,474 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 24', 'explanation': 'explanation 24'}
+2024-06-27 17:05:59,475 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:59,782 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'dummy explanation 3'}
+2024-06-27 17:05:59,783 - INFO - 127.0.0.1 - - [27/Jun/2024 17:05:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:05:59,906 - INFO - .
+2024-06-27 17:06:00,907 - INFO - .
+2024-06-27 17:06:00,907 - INFO - Long task done
+2024-06-27 17:06:00,907 - INFO - Ready queue updated
+2024-06-27 17:06:03,711 - INFO - Starting long task
+2024-06-27 17:06:03,711 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 35'}
+2024-06-27 17:06:03,711 - INFO - Your params: {}
+2024-06-27 17:06:03,712 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:03] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:04,030 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'dummy explanation 1'}
+2024-06-27 17:06:04,031 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:04,713 - INFO - .
+2024-06-27 17:06:05,713 - INFO - .
+2024-06-27 17:06:06,571 - INFO - Successful response from stale_quote_queue: {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': 'dummy explanation 2'}
+2024-06-27 17:06:06,571 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:06,714 - INFO - .
+2024-06-27 17:06:06,878 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'dummy explanation 1'}
+2024-06-27 17:06:06,878 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:07,715 - INFO - .
+2024-06-27 17:06:08,716 - INFO - .
+2024-06-27 17:06:08,716 - INFO - Long task done
+2024-06-27 17:06:08,716 - INFO - Ready queue updated
+2024-06-27 17:06:09,354 - INFO - Starting long task
+2024-06-27 17:06:09,354 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 11'}
+2024-06-27 17:06:09,354 - INFO - Your params: {}
+2024-06-27 17:06:09,354 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:09,675 - INFO - Successful response from stale_quote_queue: {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': 'dummy explanation 2'}
+2024-06-27 17:06:09,675 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:10,356 - INFO - .
+2024-06-27 17:06:11,356 - INFO - .
+2024-06-27 17:06:12,342 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 11'}
+2024-06-27 17:06:12,342 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:12,365 - INFO - .
+2024-06-27 17:06:12,666 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 11'}
+2024-06-27 17:06:12,666 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:13,366 - INFO - .
+2024-06-27 17:06:14,366 - INFO - .
+2024-06-27 17:06:14,366 - INFO - Long task done
+2024-06-27 17:06:14,366 - INFO - Ready queue updated
+2024-06-27 17:06:19,246 - INFO - Starting long task
+2024-06-27 17:06:19,246 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 35', 'explanation': 'explanation 11'}
+2024-06-27 17:06:19,246 - INFO - Your params: {}
+2024-06-27 17:06:19,246 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:19] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:19,551 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'dummy explanation 3'}
+2024-06-27 17:06:19,552 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:19] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:20,247 - INFO - .
+2024-06-27 17:06:21,247 - INFO - .
+2024-06-27 17:06:22,248 - INFO - .
+2024-06-27 17:06:23,248 - INFO - .
+2024-06-27 17:06:23,457 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:06:23,459 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:23] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:23,772 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:06:23,773 - INFO - 127.0.0.1 - - [27/Jun/2024 17:06:23] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:06:24,249 - INFO - .
+2024-06-27 17:06:24,249 - INFO - Long task done
+2024-06-27 17:06:24,249 - INFO - Ready queue updated
+2024-06-27 17:07:35,386 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:07:35,386 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:07:35,387 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 17:07:36,647 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 17:08:53,343 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 17:08:53,344 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 17:08:53,350 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 17:08:54,373 - WARNING -  * Debugger is active!
+2024-06-27 17:08:54,378 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 17:08:57,172 - INFO - Starting long task
+2024-06-27 17:08:57,172 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:08:57,172 - INFO - Your params: {}
+2024-06-27 17:08:57,173 - INFO - 127.0.0.1 - - [27/Jun/2024 17:08:57] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:08:57,420 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'dummy explanation 3'}
+2024-06-27 17:08:57,421 - INFO - 127.0.0.1 - - [27/Jun/2024 17:08:57] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:08:58,173 - INFO - .
+2024-06-27 17:08:59,174 - INFO - .
+2024-06-27 17:09:00,174 - INFO - .
+2024-06-27 17:09:00,794 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:09:00,794 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:00] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:01,105 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'dummy explanation 1'}
+2024-06-27 17:09:01,106 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:01] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:01,175 - INFO - .
+2024-06-27 17:09:02,176 - INFO - .
+2024-06-27 17:09:02,176 - INFO - Long task done
+2024-06-27 17:09:02,176 - INFO - Ready queue updated
+2024-06-27 17:09:04,112 - INFO - Starting long task
+2024-06-27 17:09:04,113 - INFO - Successful response from ready_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:04,113 - INFO - Your params: {}
+2024-06-27 17:09:04,113 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:04,418 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:04,419 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:05,114 - INFO - .
+2024-06-27 17:09:06,115 - INFO - .
+2024-06-27 17:09:07,115 - INFO - .
+2024-06-27 17:09:08,116 - INFO - .
+2024-06-27 17:09:09,116 - INFO - .
+2024-06-27 17:09:09,116 - INFO - Long task done
+2024-06-27 17:09:09,116 - INFO - Ready queue updated
+2024-06-27 17:09:09,585 - INFO - Starting long task
+2024-06-27 17:09:09,585 - INFO - Successful response from ready_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:09,585 - INFO - Your params: {}
+2024-06-27 17:09:09,586 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:09,892 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:09,894 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:10,587 - INFO - .
+2024-06-27 17:09:11,587 - INFO - .
+2024-06-27 17:09:12,574 - INFO - Successful response from stale_quote_queue: {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': 'dummy explanation 2'}
+2024-06-27 17:09:12,574 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:12,588 - INFO - .
+2024-06-27 17:09:12,880 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:12,881 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:13,589 - INFO - .
+2024-06-27 17:09:14,589 - INFO - .
+2024-06-27 17:09:14,589 - INFO - Long task done
+2024-06-27 17:09:14,589 - INFO - Ready queue updated
+2024-06-27 17:09:16,347 - INFO - Starting long task
+2024-06-27 17:09:16,348 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'explanation 11'}
+2024-06-27 17:09:16,348 - INFO - Your params: {}
+2024-06-27 17:09:16,348 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:16] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:16,653 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 17:09:16,654 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:16] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:17,348 - INFO - .
+2024-06-27 17:09:18,349 - INFO - .
+2024-06-27 17:09:19,349 - INFO - .
+2024-06-27 17:09:20,350 - INFO - .
+2024-06-27 17:09:21,344 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'dummy explanation 1'}
+2024-06-27 17:09:21,344 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:21] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:21,351 - INFO - .
+2024-06-27 17:09:21,351 - INFO - Long task done
+2024-06-27 17:09:21,351 - INFO - Ready queue updated
+2024-06-27 17:09:21,665 - INFO - Starting long task
+2024-06-27 17:09:21,665 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'explanation 11'}
+2024-06-27 17:09:21,665 - INFO - Your params: {}
+2024-06-27 17:09:21,666 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:21] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:22,667 - INFO - .
+2024-06-27 17:09:23,667 - INFO - .
+2024-06-27 17:09:24,668 - INFO - .
+2024-06-27 17:09:24,900 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:24,901 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:24] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:25,206 - INFO - Successful response from stale_quote_queue: {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': 'explanation 35'}
+2024-06-27 17:09:25,207 - INFO - 127.0.0.1 - - [27/Jun/2024 17:09:25] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 17:09:25,669 - INFO - .
+2024-06-27 17:09:26,669 - INFO - .
+2024-06-27 17:09:26,669 - INFO - Long task done
+2024-06-27 17:09:26,669 - INFO - Ready queue updated
