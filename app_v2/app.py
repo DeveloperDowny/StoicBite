@@ -15,12 +15,23 @@ import logging
 
 from collections import deque
 import random
- 
+
+import json
  
 
+kDebugMode = False
+
 # Set up logging
-logging.basicConfig(filename='stoic_app.log', level=logging.INFO,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
+# logging.basicConfig(filename='stoic_app.log', level=logging.INFO,
+#                     format='%(asctime)s - %(levelname)s - %(message)s')
+ 
+# if in debug mode, create new log file with current timestamp
+if kDebugMode or True:
+    logging.basicConfig(filename=f'stoic_app_{time.strftime("%Y%m%d-%H%M%S")}.log', level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+else:
+    logging.basicConfig(filename='stoic_app_v2.log', level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = Flask(__name__)
 CORS(app)
@@ -86,71 +97,114 @@ def generate_response(quote):
         error_msg = f"Error generating response: {str(e)}"
         logging.error(error_msg)
         raise Exception(error_msg)
-    
-fallback_res = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
 
-dumm_stale_1 = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': "dummy explanation 1"}
-dumm_stale_2 = {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': "dummy explanation 2"}
-dumm_stale_3 = {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': "dummy explanation 3"}
+# load from json file
+fallback_res_list = [{
+        "quote": "\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\" --Marcus Aurelius, Meditations, Book 7",
+        "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part."
+      }]
+fallback_res = fallback_res_list[0]
+
+file_path = "quotes.json"
+quotes = []
+f = open(file_path, "r")
+quotes = json.load(f)
+quotes = quotes.get("data", fallback_res_list)
+f.close()
+    
+ 
+
+# dumm_stale_1 = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': "dummy explanation 1"}
+# dumm_stale_2 = {'quote': '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', 'explanation': "dummy explanation 2"}
+# dumm_stale_3 = {'quote': '"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', 'explanation': "dummy explanation 3"}
  
 ready_quote_queue = deque()
-ready_quote_queue.append(fallback_res)
+# ready_quote_queue.append(fallback_res)
+ready_quote_queue.append(quotes[0]) 
 
-stale_quote_queue_size = 4
+stale_quote_queue_size = len(quotes)
+logging.info(f"stale_quote_queue_size: {stale_quote_queue_size}")
 stale_quote_queue = deque()
-stale_quote_queue.append(fallback_res)
-stale_quote_queue.append(dumm_stale_1)
-stale_quote_queue.append(dumm_stale_2)
-stale_quote_queue.append(dumm_stale_3)
+stale_quote_queue.extend(quotes) 
+
+processing_quote = False
+
+def long_running_task(**kwargs):
+    your_params = kwargs.get('post_data', {})
+    logging.info("Starting long task")
+    logging.info("Your params: %s", your_params)
+    for _ in range(5):
+        time.sleep(1)
+        logging.info(".")
+    logging.info("Long task done") 
+    ml = ['"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7'] 
+    new_res = {
+        "quote": f"{random.choice(ml)}",
+        "explanation": f"{random.choice(['explanation 11', 'explanation 24', 'explanation 35'])}"
+    }
+    ready_quote_queue.append(new_res)
+    stale_quote_queue.append(new_res)
+    if len(ready_quote_queue) > stale_quote_queue_size:
+        ready_quote_queue.popleft()
+
+    logging.info("Ready queue updated")
+
+def long_running_task_of_fetching_quote_and_explanation(**kwargs):
+    global processing_quote
+    quote = fetch_quote()
+    explanation = generate_response(quote)
+    new_res = {
+        "quote": quote,
+        "explanation": explanation
+    }
+    ready_quote_queue.append(new_res)
+    stale_quote_queue.append(new_res)
+    if len(ready_quote_queue) > stale_quote_queue_size:
+        ready_quote_queue.popleft()
+    processing_quote = False
+    logging.info("Ready queue updated")
 
 
 @app.route('/daily_stoic', methods=['GET'])
 def daily_stoic():
+    global processing_quote
     try:
         if len(ready_quote_queue) > 0:
             response = ready_quote_queue.popleft()
-            def long_running_task(**kwargs):
-                your_params = kwargs.get('post_data', {})
-                logging.info("Starting long task")
-                logging.info("Your params: %s", your_params)
-                for _ in range(5):
-                    time.sleep(1)
-                    logging.info(".")
-                logging.info("Long task done") 
-                ml = ['"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5', '"How plain does it appear that there is not another condition of life so well suited for philosophising as this in which thou now happenest to be." --Marcus Aurelius', '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7'] 
-                new_res = {
-                    "quote": f"{random.choice(ml)}",
-                    "explanation": f"{random.choice(['explanation 11', 'explanation 24', 'explanation 35'])}"
-                }
-                ready_quote_queue.append(new_res)
-                stale_quote_queue.append(new_res)
-                if len(ready_quote_queue) > stale_quote_queue_size:
-                    ready_quote_queue.popleft()
 
 
-                logging.info("Ready queue updated")
-            thread = threading.Thread(target=long_running_task, kwargs={
+
+            if kDebugMode:
+                thread = threading.Thread(target=long_running_task, kwargs={
                             'post_data': {}})
+            else:
+                thread = threading.Thread(target=long_running_task_of_fetching_quote_and_explanation, kwargs={
+                            'post_data': {}})
+                
             thread.start()
             # wrie appropriate log here
             logging.info(f"Successful response from ready_quote_queue: {response}")
             return jsonify(response), 200
         if len(stale_quote_queue) > 0:
+            if not processing_quote and len(ready_quote_queue) == 0:
+                processing_quote = True
+                # thread = threading.Thread(target=long_running_task_of_fetching_quote_and_explanation, kwargs={
+                #             'post_data': {}})
+                if kDebugMode:
+                    thread = threading.Thread(target=long_running_task, kwargs={
+                            'post_data': {}})
+                else:
+                    thread = threading.Thread(target=long_running_task_of_fetching_quote_and_explanation, kwargs={
+                            'post_data': {}}) 
+                thread.start()
+            
             # response = stale_quote_queue[-1] 
             # response will be random choice
             response = random.choice(stale_quote_queue)
             # wrie appropriate log here
             logging.info(f"Successful response from stale_quote_queue: {response}")
             return jsonify(response), 200
-        return fallback_res, 200
-        quote = fetch_quote()
-        explanation = generate_response(quote)
-        response = {
-            "quote": quote,
-            "explanation": explanation
-        }
-        logging.info(f"Successful response: {response}")
-        return jsonify(response), 200
+        return fallback_res_list, 200 
     except Exception as e:
         error_response = {"error": str(e)}
         logging.error(f"Error in daily_stoic: {error_response}")
@@ -187,8 +241,4 @@ def test():
     }), 200
 
 if __name__ == '__main__':
-    # app.run(debug=True)
-    # q = '''"A man should always have these two rules in readiness the one, to do only whatever the reason of the ruling and legislating faculty may suggest for the use of men the other, to change thy opinion, if there is anyone at hand who sets thee right and moves thee from any opinion." --Marcus Aurelius, Meditations, Book 4'''
-    # print(generate_response(q))
-    # q = fetch_quote()
-    app.run(debug=True)
+    app.run()

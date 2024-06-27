@@ -7,3 +7,7 @@ marcus-aurelius_meditations_george-long/
 seneca_dialogues_aubrey-stewart/
 
 .vscode/
+
+stoic_app_*.log
+
+__pycache__/
