@@ -159,7 +159,11 @@ def long_running_task_of_fetching_quote_and_explanation(**kwargs):
         "explanation": explanation
     }
     ready_quote_queue.append(new_res)
+
     stale_quote_queue.append(new_res)
+    # log lengths of both of them
+    logger.info(f"Length of ready_quote_queue: {len(ready_quote_queue)}")
+    logger.info(f"Length of stale_quote_queue: {len(stale_quote_queue)}")
     if len(ready_quote_queue) > stale_quote_queue_size:
         ready_quote_queue.popleft()
     processing_quote = False
@@ -172,9 +176,7 @@ def daily_stoic():
     try:
         if len(ready_quote_queue) > 0:
             response = ready_quote_queue.popleft()
-
-
-
+            processing_quote = True
             if kDebugMode:
                 thread = threading.Thread(target=long_running_task, kwargs={
                             'post_data': {}})
@@ -194,6 +196,8 @@ def daily_stoic():
                 else:
                     thread = threading.Thread(target=long_running_task_of_fetching_quote_and_explanation, kwargs={
                             'post_data': {}}) 
+                # add an appropriate log here
+                logger.info("Starting thread for fetching quote and explanation while processing from stale queue.")
                 thread.start()
             
             response = random.choice(stale_quote_queue)
