@@ -51,3 +51,875 @@ By adhering to these principles, we can live our lives in a manner that is both 
 2024-06-24 00:52:18,872 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://localhost:5000
 2024-06-24 00:52:18,872 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:03:47,130 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 15:03:47,130 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:03:47,140 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:03:48,149 - WARNING -  * Debugger is active!
+2024-06-27 15:03:48,164 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:07:50,106 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\config\\__init__.py', reloading
+2024-06-27 15:07:50,175 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\capture.py', reloading
+2024-06-27 15:07:50,245 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\doctest.py', reloading
+2024-06-27 15:07:50,279 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\compat.py', reloading
+2024-06-27 15:07:50,308 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\junitxml.py', reloading
+2024-06-27 15:07:50,327 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\legacypath.py', reloading
+2024-06-27 15:07:50,354 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\logging.py', reloading
+2024-06-27 15:07:50,379 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\monkeypatch.py', reloading
+2024-06-27 15:07:50,391 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\recwarn.py', reloading
+2024-06-27 15:07:50,405 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\tmpdir.py', reloading
+2024-06-27 15:07:51,560 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:07:52,553 - WARNING -  * Debugger is active!
+2024-06-27 15:07:52,559 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:08:20,759 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:20,760 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:20,760 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:21,906 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:08:22,877 - WARNING -  * Debugger is active!
+2024-06-27 15:08:22,883 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:08:27,329 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:27,329 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:27,330 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:28,519 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:08:29,585 - WARNING -  * Debugger is active!
+2024-06-27 15:08:29,590 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:08:30,786 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:30,786 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:30,786 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:08:31,955 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:08:54,570 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 15:08:54,571 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:08:54,576 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:08:55,562 - WARNING -  * Debugger is active!
+2024-06-27 15:08:55,568 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:09:13,695 - INFO - 127.0.0.1 - - [27/Jun/2024 15:09:13] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:09:36,629 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:36,630 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:36,630 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:37,840 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:09:39,029 - WARNING -  * Debugger is active!
+2024-06-27 15:09:39,038 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:09:42,156 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:42,157 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:43,307 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:09:44,336 - WARNING -  * Debugger is active!
+2024-06-27 15:09:44,348 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:09:44,723 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:44,724 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:44,724 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:45,876 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:09:46,894 - WARNING -  * Debugger is active!
+2024-06-27 15:09:46,899 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:09:47,384 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:47,384 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:47,385 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:47,385 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:48,557 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:09:49,578 - WARNING -  * Debugger is active!
+2024-06-27 15:09:49,588 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:09:58,125 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:58,125 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:58,126 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:09:59,283 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:10:00,338 - WARNING -  * Debugger is active!
+2024-06-27 15:10:00,343 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:10:07,068 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:07,068 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:07,068 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:08,212 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:10:09,202 - WARNING -  * Debugger is active!
+2024-06-27 15:10:09,208 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:10:21,110 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:21,110 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:21,110 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:22,339 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:10:23,356 - WARNING -  * Debugger is active!
+2024-06-27 15:10:23,365 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:10:24,176 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:24,177 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:24,177 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:25,380 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:10:26,425 - WARNING -  * Debugger is active!
+2024-06-27 15:10:26,432 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:10:27,227 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:27,227 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:27,228 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:27,228 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:10:28,425 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:10:29,399 - WARNING -  * Debugger is active!
+2024-06-27 15:10:29,405 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:10:35,415 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:10:35,417 - INFO - 127.0.0.1 - - [27/Jun/2024 15:10:35] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:11:05,128 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:05,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:05,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:06,274 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:11:07,257 - WARNING -  * Debugger is active!
+2024-06-27 15:11:07,263 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:11:18,554 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:11:18,555 - INFO - 127.0.0.1 - - [27/Jun/2024 15:11:18] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:11:26,494 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:11:26,495 - INFO - 127.0.0.1 - - [27/Jun/2024 15:11:26] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:11:54,047 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:54,047 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:54,048 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:11:55,392 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:11:56,683 - WARNING -  * Debugger is active!
+2024-06-27 15:11:56,690 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:00,024 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:00,025 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:00,025 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:01,224 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:02,389 - WARNING -  * Debugger is active!
+2024-06-27 15:12:02,395 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:02,968 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\logging\\__init__.py', reloading
+2024-06-27 15:12:04,174 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:05,205 - WARNING -  * Debugger is active!
+2024-06-27 15:12:05,210 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:09,154 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:09,154 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:09,155 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:10,347 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:11,414 - WARNING -  * Debugger is active!
+2024-06-27 15:12:11,422 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:18,258 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:18,259 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:18,259 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:19,458 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:20,584 - WARNING -  * Debugger is active!
+2024-06-27 15:12:20,591 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:21,138 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:21,139 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:21,139 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:22,350 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:23,558 - WARNING -  * Debugger is active!
+2024-06-27 15:12:23,565 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:24,806 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+2024-06-27 15:12:24,821 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\_pytest\\fixtures.py', reloading
+2024-06-27 15:12:24,865 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:24,865 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:24,866 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:12:26,051 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:27,185 - WARNING -  * Debugger is active!
+2024-06-27 15:12:27,191 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:28,814 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:12:28,830 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\flask\\app.py', reloading
+2024-06-27 15:12:28,837 - INFO - 127.0.0.1 - - [27/Jun/2024 15:12:28] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:12:28,838 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+2024-06-27 15:12:28,838 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+2024-06-27 15:12:28,838 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\http\\server.py', reloading
+2024-06-27 15:12:28,838 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\socketserver.py', reloading
+2024-06-27 15:12:28,839 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\threading.py', reloading
+2024-06-27 15:12:29,998 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:12:31,069 - WARNING -  * Debugger is active!
+2024-06-27 15:12:31,075 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:12:34,599 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:12:34,608 - INFO - 127.0.0.1 - - [27/Jun/2024 15:12:34] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:13:10,681 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:10,681 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:10,682 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:11,901 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:13:12,914 - WARNING -  * Debugger is active!
+2024-06-27 15:13:12,920 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:13:15,155 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:15,155 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:15,156 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:13:16,308 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:13:30,408 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 15:13:30,408 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:13:30,414 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:13:31,358 - WARNING -  * Debugger is active!
+2024-06-27 15:13:31,364 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:13:43,484 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:13:43,484 - INFO - after_request response: <Response 1824 bytes [200 OK]>
+2024-06-27 15:13:43,485 - INFO - 127.0.0.1 - - [27/Jun/2024 15:13:43] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:14:13,026 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:14:13,026 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:14:13,027 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:14:14,257 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:14:15,382 - WARNING -  * Debugger is active!
+2024-06-27 15:14:15,388 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:14:18,348 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:14:18,349 - INFO - after_request response: b'{\n  "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\\n\\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\\n\\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.",\n  "quote": "\\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\\" --Marcus Aurelius, Meditations, Book 7"\n}\n'
+2024-06-27 15:14:18,349 - INFO - 127.0.0.1 - - [27/Jun/2024 15:14:18] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:15:07,986 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:07,987 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:07,987 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:09,186 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:10,368 - WARNING -  * Debugger is active!
+2024-06-27 15:15:10,373 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:11,155 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:15:11,155 - INFO - after_request response: b'{\n  "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\\n\\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\\n\\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.",\n  "quote": "\\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\\" --Marcus Aurelius, Meditations, Book 7"\n}\n'
+2024-06-27 15:15:11,159 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2024-06-27 15:15:11,161 - INFO - 127.0.0.1 - - [27/Jun/2024 15:15:11] "[35m[1mGET /daily_stoic HTTP/1.1[0m" 500 -
+2024-06-27 15:15:12,307 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:13,307 - WARNING -  * Debugger is active!
+2024-06-27 15:15:13,315 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:36,645 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:36,646 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:36,646 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:37,839 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:39,011 - WARNING -  * Debugger is active!
+2024-06-27 15:15:39,017 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:40,034 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:40,226 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:41,255 - WARNING -  * Debugger is active!
+2024-06-27 15:15:41,260 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:41,400 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:41,401 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:41,401 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:42,549 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:43,610 - WARNING -  * Debugger is active!
+2024-06-27 15:15:43,615 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:45,466 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:45,466 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:45,466 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:46,643 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:47,779 - WARNING -  * Debugger is active!
+2024-06-27 15:15:47,784 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:48,676 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:48,677 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:48,677 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:49,884 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:50,972 - WARNING -  * Debugger is active!
+2024-06-27 15:15:50,977 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:15:56,148 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:56,148 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:56,149 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:56,149 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:15:57,316 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:15:58,417 - WARNING -  * Debugger is active!
+2024-06-27 15:15:58,423 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:16:03,727 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:16:03,728 - INFO - after_request response: b'{\n  "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\\n\\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\\n\\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.",\n  "quote": "\\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\\" --Marcus Aurelius, Meditations, Book 7"\n}\n'
+2024-06-27 15:16:08,729 - INFO - blocking task completed
+2024-06-27 15:16:08,730 - INFO - 127.0.0.1 - - [27/Jun/2024 15:16:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:20:43,425 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:43,426 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:43,426 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:44,594 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:20:45,680 - WARNING -  * Debugger is active!
+2024-06-27 15:20:45,690 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:20:46,267 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:46,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:46,269 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:46,269 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:20:47,412 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:20:48,453 - WARNING -  * Debugger is active!
+2024-06-27 15:20:48,457 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:25:29,178 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:29,178 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:29,178 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:29,179 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:30,330 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:25:31,545 - WARNING -  * Debugger is active!
+2024-06-27 15:25:31,551 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:25:34,286 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:34,286 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:34,287 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:35,461 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:25:36,556 - WARNING -  * Debugger is active!
+2024-06-27 15:25:36,562 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:25:38,498 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:38,499 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:38,499 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:39,662 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:25:40,640 - WARNING -  * Debugger is active!
+2024-06-27 15:25:40,647 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:25:41,603 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:41,603 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:41,604 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:41,604 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:25:42,765 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:25:43,783 - WARNING -  * Debugger is active!
+2024-06-27 15:25:43,789 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:25:54,729 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:25:56,730 - INFO - Request ended
+2024-06-27 15:25:56,730 - INFO - 127.0.0.1 - - [27/Jun/2024 15:25:56] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:26:08,527 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:26:08,528 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:26:08,528 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:26:09,800 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:26:11,274 - WARNING -  * Debugger is active!
+2024-06-27 15:26:11,280 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:50:26,175 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:50:26,175 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:50:26,175 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:50:27,366 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:50:28,683 - WARNING -  * Debugger is active!
+2024-06-27 15:50:28,699 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:51:00,665 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:00,666 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:00,666 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:01,817 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:51:03,014 - WARNING -  * Debugger is active!
+2024-06-27 15:51:03,021 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:51:03,514 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:03,514 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:03,514 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:51:04,728 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:54:01,774 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 15:54:01,774 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:54:01,780 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:54:02,805 - WARNING -  * Debugger is active!
+2024-06-27 15:54:02,810 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:54:41,147 - INFO - Starting long task
+2024-06-27 15:54:41,148 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:54:41,148 - INFO - Your params: {}
+2024-06-27 15:54:41,148 - INFO - 127.0.0.1 - - [27/Jun/2024 15:54:41] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:54:42,150 - INFO - .
+2024-06-27 15:54:43,150 - INFO - .
+2024-06-27 15:54:44,151 - INFO - .
+2024-06-27 15:54:45,151 - INFO - .
+2024-06-27 15:54:46,152 - INFO - .
+2024-06-27 15:54:47,152 - INFO - .
+2024-06-27 15:54:48,153 - INFO - .
+2024-06-27 15:54:48,892 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:54:48,892 - INFO - 127.0.0.1 - - [27/Jun/2024 15:54:48] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:54:49,154 - INFO - .
+2024-06-27 15:54:50,154 - INFO - .
+2024-06-27 15:54:51,155 - INFO - .
+2024-06-27 15:54:51,155 - INFO - Long task done
+2024-06-27 15:54:51,155 - INFO - Ready queue updated
+2024-06-27 15:54:53,672 - INFO - Starting long task
+2024-06-27 15:54:53,672 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:54:53,672 - INFO - Your params: {}
+2024-06-27 15:54:53,673 - INFO - 127.0.0.1 - - [27/Jun/2024 15:54:53] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:54:54,674 - INFO - .
+2024-06-27 15:54:55,674 - INFO - .
+2024-06-27 15:54:56,675 - INFO - .
+2024-06-27 15:54:57,675 - INFO - .
+2024-06-27 15:54:58,676 - INFO - .
+2024-06-27 15:54:59,676 - INFO - .
+2024-06-27 15:55:00,677 - INFO - .
+2024-06-27 15:55:01,678 - INFO - .
+2024-06-27 15:55:02,678 - INFO - .
+2024-06-27 15:55:03,678 - INFO - .
+2024-06-27 15:55:03,678 - INFO - Long task done
+2024-06-27 15:55:03,678 - INFO - Ready queue updated
+2024-06-27 15:55:04,704 - INFO - Starting long task
+2024-06-27 15:55:04,705 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:55:04,705 - INFO - Your params: {}
+2024-06-27 15:55:04,706 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:05,706 - INFO - .
+2024-06-27 15:55:06,707 - INFO - .
+2024-06-27 15:55:07,707 - INFO - .
+2024-06-27 15:55:08,708 - INFO - .
+2024-06-27 15:55:09,709 - INFO - .
+2024-06-27 15:55:10,709 - INFO - .
+2024-06-27 15:55:11,710 - INFO - .
+2024-06-27 15:55:12,710 - INFO - .
+2024-06-27 15:55:13,711 - INFO - .
+2024-06-27 15:55:14,199 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:55:14,199 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:14] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:14,711 - INFO - .
+2024-06-27 15:55:14,711 - INFO - Long task done
+2024-06-27 15:55:14,711 - INFO - Ready queue updated
+2024-06-27 15:55:22,076 - INFO - Starting long task
+2024-06-27 15:55:22,076 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:55:22,076 - INFO - Your params: {}
+2024-06-27 15:55:22,077 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,186 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:55:22,187 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,317 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:55:22,318 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,471 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,614 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,731 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:22,856 - INFO - 127.0.0.1 - - [27/Jun/2024 15:55:22] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:55:23,077 - INFO - .
+2024-06-27 15:55:24,078 - INFO - .
+2024-06-27 15:55:25,078 - INFO - .
+2024-06-27 15:55:26,079 - INFO - .
+2024-06-27 15:55:27,079 - INFO - .
+2024-06-27 15:55:28,080 - INFO - .
+2024-06-27 15:55:29,080 - INFO - .
+2024-06-27 15:55:30,081 - INFO - .
+2024-06-27 15:55:31,082 - INFO - .
+2024-06-27 15:55:32,082 - INFO - .
+2024-06-27 15:55:32,082 - INFO - Long task done
+2024-06-27 15:55:32,082 - INFO - Ready queue updated
+2024-06-27 15:56:34,354 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\collections\\__init__.py', reloading
+2024-06-27 15:56:35,582 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:56:36,820 - WARNING -  * Debugger is active!
+2024-06-27 15:56:36,827 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:56:37,174 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:56:37,174 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:56:37,174 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:56:38,356 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:57:22,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 15:57:22,901 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 15:57:22,909 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:57:24,180 - WARNING -  * Debugger is active!
+2024-06-27 15:57:24,186 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:57:28,728 - INFO - Starting long task
+2024-06-27 15:57:28,728 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:57:28,728 - INFO - Your params: {}
+2024-06-27 15:57:28,729 - INFO - 127.0.0.1 - - [27/Jun/2024 15:57:28] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:57:29,730 - INFO - .
+2024-06-27 15:57:30,731 - INFO - .
+2024-06-27 15:57:31,732 - INFO - .
+2024-06-27 15:57:32,732 - INFO - .
+2024-06-27 15:57:33,660 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:57:33,661 - INFO - 127.0.0.1 - - [27/Jun/2024 15:57:33] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:57:33,733 - INFO - .
+2024-06-27 15:57:34,733 - INFO - .
+2024-06-27 15:57:35,734 - INFO - .
+2024-06-27 15:57:36,735 - INFO - .
+2024-06-27 15:57:37,736 - INFO - .
+2024-06-27 15:57:38,285 - INFO - 127.0.0.1 - - [27/Jun/2024 15:57:38] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:57:38,737 - INFO - .
+2024-06-27 15:57:38,737 - INFO - Long task done
+2024-06-27 15:57:38,737 - INFO - Ready queue updated
+2024-06-27 15:57:55,191 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:57:55,192 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:57:55,192 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:57:56,399 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:57:57,636 - WARNING -  * Debugger is active!
+2024-06-27 15:57:57,642 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:58:10,546 - INFO - Starting long task
+2024-06-27 15:58:10,547 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:58:10,547 - INFO - Your params: {}
+2024-06-27 15:58:10,547 - INFO - 127.0.0.1 - - [27/Jun/2024 15:58:10] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:58:11,068 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:58:11,069 - INFO - 127.0.0.1 - - [27/Jun/2024 15:58:11] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:58:11,455 - INFO - 127.0.0.1 - - [27/Jun/2024 15:58:11] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:58:11,548 - INFO - .
+2024-06-27 15:58:11,877 - INFO - 127.0.0.1 - - [27/Jun/2024 15:58:11] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:58:12,328 - INFO - 127.0.0.1 - - [27/Jun/2024 15:58:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:58:12,549 - INFO - .
+2024-06-27 15:58:12,549 - INFO - Long task done
+2024-06-27 15:58:12,549 - INFO - Ready queue updated
+2024-06-27 15:58:57,079 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:58:57,080 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:58:57,080 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 15:58:58,262 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 15:58:59,539 - WARNING -  * Debugger is active!
+2024-06-27 15:58:59,546 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 15:59:04,692 - INFO - Starting long task
+2024-06-27 15:59:04,692 - INFO - Your params: {}
+2024-06-27 15:59:04,692 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:59:04,693 - INFO - 127.0.0.1 - - [27/Jun/2024 15:59:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:59:04,905 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:59:04,906 - INFO - 127.0.0.1 - - [27/Jun/2024 15:59:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:59:05,110 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:59:05,111 - INFO - 127.0.0.1 - - [27/Jun/2024 15:59:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:59:05,335 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:59:05,336 - INFO - 127.0.0.1 - - [27/Jun/2024 15:59:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:59:05,553 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 15:59:05,554 - INFO - 127.0.0.1 - - [27/Jun/2024 15:59:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 15:59:05,693 - INFO - .
+2024-06-27 15:59:06,694 - INFO - .
+2024-06-27 15:59:07,694 - INFO - .
+2024-06-27 15:59:08,695 - INFO - .
+2024-06-27 15:59:09,695 - INFO - .
+2024-06-27 15:59:10,696 - INFO - .
+2024-06-27 15:59:11,696 - INFO - .
+2024-06-27 15:59:12,697 - INFO - .
+2024-06-27 15:59:13,698 - INFO - .
+2024-06-27 15:59:14,699 - INFO - .
+2024-06-27 15:59:15,700 - INFO - .
+2024-06-27 15:59:16,700 - INFO - .
+2024-06-27 15:59:17,701 - INFO - .
+2024-06-27 15:59:18,701 - INFO - .
+2024-06-27 15:59:19,702 - INFO - .
+2024-06-27 15:59:20,702 - INFO - .
+2024-06-27 15:59:21,703 - INFO - .
+2024-06-27 15:59:22,703 - INFO - .
+2024-06-27 15:59:23,704 - INFO - .
+2024-06-27 15:59:24,705 - INFO - .
+2024-06-27 15:59:24,705 - INFO - Long task done
+2024-06-27 15:59:24,705 - INFO - Ready queue updated
+2024-06-27 16:00:32,373 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:32,374 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:32,374 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:33,728 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:00:34,735 - WARNING -  * Debugger is active!
+2024-06-27 16:00:34,741 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:00:45,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:45,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:45,268 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:46,421 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:00:47,583 - WARNING -  * Debugger is active!
+2024-06-27 16:00:47,589 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:00:50,349 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:50,349 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:50,350 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:51,515 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:00:52,528 - WARNING -  * Debugger is active!
+2024-06-27 16:00:52,537 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:00:58,718 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:58,719 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:58,719 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:00:59,873 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:01:00,948 - WARNING -  * Debugger is active!
+2024-06-27 16:01:00,954 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:01:01,810 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:01,811 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:01,811 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:02,986 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:01:04,067 - WARNING -  * Debugger is active!
+2024-06-27 16:01:04,073 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:01:09,265 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:09,265 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:09,265 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:09,265 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:10,419 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:01:11,410 - WARNING -  * Debugger is active!
+2024-06-27 16:01:11,416 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:01:38,194 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:38,194 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:38,195 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:38,195 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:01:39,398 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:01:40,519 - WARNING -  * Debugger is active!
+2024-06-27 16:01:40,529 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:02,035 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:02,036 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:02,036 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:03,191 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:04,403 - WARNING -  * Debugger is active!
+2024-06-27 16:02:04,411 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:08,823 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:08,823 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:08,824 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:10,002 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:11,109 - WARNING -  * Debugger is active!
+2024-06-27 16:02:11,115 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:14,128 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:14,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:14,129 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:15,280 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:16,347 - WARNING -  * Debugger is active!
+2024-06-27 16:02:16,354 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:17,207 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:17,208 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:17,208 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:18,372 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:19,533 - WARNING -  * Debugger is active!
+2024-06-27 16:02:19,541 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:24,891 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:24,891 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:24,892 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:26,080 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:27,219 - WARNING -  * Debugger is active!
+2024-06-27 16:02:27,225 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:27,704 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:27,705 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:27,705 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:28,887 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:30,012 - WARNING -  * Debugger is active!
+2024-06-27 16:02:30,018 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:30,069 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:30,069 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:30,069 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:31,214 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:32,232 - WARNING -  * Debugger is active!
+2024-06-27 16:02:32,238 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:02:48,750 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:48,750 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:48,750 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:02:50,002 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:02:51,408 - WARNING -  * Debugger is active!
+2024-06-27 16:02:51,414 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:04:02,820 - INFO -  * Detected change in 'C:\\Users\\Vedant\\anaconda3\\Lib\\random.py', reloading
+2024-06-27 16:04:03,988 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:04:05,131 - WARNING -  * Debugger is active!
+2024-06-27 16:04:05,137 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:04:16,575 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:16,576 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:16,576 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:17,744 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:04:18,978 - WARNING -  * Debugger is active!
+2024-06-27 16:04:18,985 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:04:24,493 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:24,494 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:24,494 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:25,698 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:04:26,761 - WARNING -  * Debugger is active!
+2024-06-27 16:04:26,766 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:04:27,826 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:27,826 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:27,826 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:29,003 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:04:30,084 - WARNING -  * Debugger is active!
+2024-06-27 16:04:30,090 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:04:59,247 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:59,247 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:04:59,248 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:00,410 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:01,480 - WARNING -  * Debugger is active!
+2024-06-27 16:05:01,486 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:06,491 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:06,491 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:06,491 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:07,700 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:08,988 - WARNING -  * Debugger is active!
+2024-06-27 16:05:08,994 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:09,666 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:09,667 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:09,667 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:10,825 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:11,953 - WARNING -  * Debugger is active!
+2024-06-27 16:05:11,960 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:14,169 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:14,170 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:14,170 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:15,326 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:16,445 - WARNING -  * Debugger is active!
+2024-06-27 16:05:16,454 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:19,214 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:19,215 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:19,215 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:20,375 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:21,421 - WARNING -  * Debugger is active!
+2024-06-27 16:05:21,428 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:23,341 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:23,342 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:23,342 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:24,610 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:05:25,805 - WARNING -  * Debugger is active!
+2024-06-27 16:05:25,810 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:05:27,485 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:27,485 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:27,485 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:05:28,655 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:06:02,528 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 16:06:02,528 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 16:06:02,534 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:06:03,551 - WARNING -  * Debugger is active!
+2024-06-27 16:06:03,556 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:06:33,943 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:06:33,944 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:06:33,944 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:06:35,142 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:06:36,503 - WARNING -  * Debugger is active!
+2024-06-27 16:06:36,511 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:06:50,845 - INFO - Starting long task
+2024-06-27 16:06:50,845 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:06:50,845 - INFO - Your params: {}
+2024-06-27 16:06:50,847 - INFO - 127.0.0.1 - - [27/Jun/2024 16:06:50] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:06:51,848 - INFO - .
+2024-06-27 16:06:52,849 - INFO - .
+2024-06-27 16:06:53,849 - INFO - .
+2024-06-27 16:06:54,850 - INFO - .
+2024-06-27 16:06:55,851 - INFO - .
+2024-06-27 16:06:56,851 - INFO - .
+2024-06-27 16:06:57,852 - INFO - .
+2024-06-27 16:06:58,852 - INFO - .
+2024-06-27 16:06:59,161 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:06:59,161 - INFO - 127.0.0.1 - - [27/Jun/2024 16:06:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:06:59,442 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:06:59,443 - INFO - 127.0.0.1 - - [27/Jun/2024 16:06:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:06:59,776 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:06:59,776 - INFO - 127.0.0.1 - - [27/Jun/2024 16:06:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:06:59,853 - INFO - .
+2024-06-27 16:07:00,145 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:07:00,145 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:00] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:00,854 - INFO - .
+2024-06-27 16:07:01,854 - INFO - .
+2024-06-27 16:07:02,854 - INFO - .
+2024-06-27 16:07:03,855 - INFO - .
+2024-06-27 16:07:04,855 - INFO - .
+2024-06-27 16:07:05,379 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:07:05,380 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:05,642 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:07:05,642 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:05,843 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:07:05,844 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:05,856 - INFO - .
+2024-06-27 16:07:06,323 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:07:06,324 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:06,526 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:07:06,526 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:06,856 - INFO - .
+2024-06-27 16:07:06,862 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:07:06,862 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:07,280 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:07:07,280 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:07,510 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:07:07,511 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:07,710 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:07:07,710 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:07,857 - INFO - .
+2024-06-27 16:07:07,891 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:07:07,892 - INFO - 127.0.0.1 - - [27/Jun/2024 16:07:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:07:08,858 - INFO - .
+2024-06-27 16:07:09,859 - INFO - .
+2024-06-27 16:07:10,859 - INFO - .
+2024-06-27 16:07:10,859 - INFO - Long task done
+2024-06-27 16:07:10,859 - INFO - Ready queue updated
+2024-06-27 16:07:59,314 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:07:59,314 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:07:59,315 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:08:00,498 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:08:01,626 - WARNING -  * Debugger is active!
+2024-06-27 16:08:01,639 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:08:09,435 - INFO - Starting long task
+2024-06-27 16:08:09,435 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:09,435 - INFO - Your params: {}
+2024-06-27 16:08:09,436 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:10,344 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:08:10,345 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:10] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:10,436 - INFO - .
+2024-06-27 16:08:10,917 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:08:10,917 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:10] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:11,437 - INFO - .
+2024-06-27 16:08:11,442 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:08:11,443 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:11] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:12,223 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:08:12,224 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:12] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:12,438 - INFO - .
+2024-06-27 16:08:13,438 - INFO - .
+2024-06-27 16:08:14,439 - INFO - .
+2024-06-27 16:08:14,439 - INFO - Long task done
+2024-06-27 16:08:14,439 - INFO - Ready queue updated
+2024-06-27 16:08:38,577 - INFO - Starting long task
+2024-06-27 16:08:38,577 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:38,577 - INFO - Your params: {}
+2024-06-27 16:08:38,578 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:38] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:39,579 - INFO - .
+2024-06-27 16:08:40,121 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:40,122 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:40] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:40,465 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:08:40,466 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:40] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:40,580 - INFO - .
+2024-06-27 16:08:40,893 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:40,894 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:40] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:41,261 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:08:41,262 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:41] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:41,581 - INFO - .
+2024-06-27 16:08:41,685 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:41,686 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:41] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:42,062 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:08:42,062 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:42] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:42,526 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:42,527 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:42] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:42,581 - INFO - .
+2024-06-27 16:08:43,061 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:08:43,062 - INFO - 127.0.0.1 - - [27/Jun/2024 16:08:43] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:08:43,582 - INFO - .
+2024-06-27 16:08:43,582 - INFO - Long task done
+2024-06-27 16:08:43,582 - INFO - Ready queue updated
+2024-06-27 16:09:05,647 - INFO - Starting long task
+2024-06-27 16:09:05,647 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:09:05,647 - INFO - Your params: {}
+2024-06-27 16:09:05,648 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:06,128 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:09:06,129 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:06,558 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:09:06,558 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:06,648 - INFO - .
+2024-06-27 16:09:07,289 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:09:07,290 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:07,648 - INFO - .
+2024-06-27 16:09:07,693 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:09:07,693 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:08,051 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:09:08,051 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:08,473 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:09:08,473 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:08,649 - INFO - .
+2024-06-27 16:09:08,991 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:09:08,991 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:08] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:09,650 - INFO - .
+2024-06-27 16:09:09,671 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:09:09,672 - INFO - 127.0.0.1 - - [27/Jun/2024 16:09:09] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:09:10,650 - INFO - .
+2024-06-27 16:09:10,650 - INFO - Long task done
+2024-06-27 16:09:10,650 - INFO - Ready queue updated
+2024-06-27 16:09:46,558 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:09:46,558 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:09:46,559 - INFO -  * Detected change in 'd:\\DPIS\\StoicByte\\app_v2\\app.py', reloading
+2024-06-27 16:09:47,825 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:10:29,518 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-06-27 16:10:29,518 - INFO - [33mPress CTRL+C to quit[0m
+2024-06-27 16:10:29,526 - INFO -  * Restarting with watchdog (windowsapi)
+2024-06-27 16:10:30,585 - WARNING -  * Debugger is active!
+2024-06-27 16:10:30,591 - INFO -  * Debugger PIN: 137-291-194
+2024-06-27 16:10:49,486 - INFO - Starting long task
+2024-06-27 16:10:49,486 - INFO - Successful response from ready_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:10:49,487 - INFO - Your params: {}
+2024-06-27 16:10:49,488 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:49] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:50,489 - INFO - .
+2024-06-27 16:10:51,490 - INFO - .
+2024-06-27 16:10:52,093 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:10:52,093 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:52] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:52,481 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:10:52,481 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:52] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:52,490 - INFO - .
+2024-06-27 16:10:52,918 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:10:52,918 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:52] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:53,490 - INFO - .
+2024-06-27 16:10:54,491 - INFO - .
+2024-06-27 16:10:54,491 - INFO - Long task done
+2024-06-27 16:10:54,491 - INFO - Ready queue updated
+2024-06-27 16:10:55,995 - INFO - Starting long task
+2024-06-27 16:10:55,996 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:10:55,996 - INFO - Your params: {}
+2024-06-27 16:10:55,997 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:55] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:56,998 - INFO - .
+2024-06-27 16:10:57,232 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:10:57,232 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:57] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:57,614 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:10:57,615 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:57] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:57,941 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:10:57,942 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:57] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:57,999 - INFO - .
+2024-06-27 16:10:58,345 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:10:58,346 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:58] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:58,956 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:10:58,956 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:58] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:10:58,999 - INFO - .
+2024-06-27 16:10:59,751 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:10:59,751 - INFO - 127.0.0.1 - - [27/Jun/2024 16:10:59] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:00,000 - INFO - .
+2024-06-27 16:11:00,438 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:11:00,438 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:00] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:00,888 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:11:00,889 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:00] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:01,000 - INFO - .
+2024-06-27 16:11:01,000 - INFO - Long task done
+2024-06-27 16:11:01,000 - INFO - Ready queue updated
+2024-06-27 16:11:01,755 - INFO - Starting long task
+2024-06-27 16:11:01,755 - INFO - Your params: {}
+2024-06-27 16:11:01,755 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 11'}
+2024-06-27 16:11:01,756 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:01] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:02,463 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:11:02,464 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:02] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:02,755 - INFO - .
+2024-06-27 16:11:02,842 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:11:02,843 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:02] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:03,479 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:11:03,480 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:03] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:03,756 - INFO - .
+2024-06-27 16:11:03,832 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 3', 'explanation': 'dummy explanation 3'}
+2024-06-27 16:11:03,833 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:03] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:04,186 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 1', 'explanation': 'dummy explanation 1'}
+2024-06-27 16:11:04,187 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:04,654 - INFO - Successful response from stale_quote_queue: {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+2024-06-27 16:11:04,655 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:04] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:04,757 - INFO - .
+2024-06-27 16:11:05,185 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:11:05,185 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:05,758 - INFO - .
+2024-06-27 16:11:05,774 - INFO - Successful response from stale_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:11:05,774 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:05] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:06,759 - INFO - .
+2024-06-27 16:11:06,759 - INFO - Long task done
+2024-06-27 16:11:06,759 - INFO - Ready queue updated
+2024-06-27 16:11:06,882 - INFO - Starting long task
+2024-06-27 16:11:06,882 - INFO - Successful response from ready_quote_queue: {'quote': 'quote 11', 'explanation': 'explanation 24'}
+2024-06-27 16:11:06,882 - INFO - Your params: {}
+2024-06-27 16:11:06,882 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:06] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:07,282 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:11:07,282 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:07,568 - INFO - Successful response from stale_quote_queue: {'quote': 'dummy quote 2', 'explanation': 'dummy explanation 2'}
+2024-06-27 16:11:07,568 - INFO - 127.0.0.1 - - [27/Jun/2024 16:11:07] "GET /daily_stoic HTTP/1.1" 200 -
+2024-06-27 16:11:07,883 - INFO - .
+2024-06-27 16:11:08,884 - INFO - .

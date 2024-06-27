@@ -9,6 +9,12 @@ from k import oakv1, quote_url
 
 from flask import request, Response
 from flask_cors import CORS
+
+import threading
+import logging
+
+from collections import deque
+import random
  
  
 
@@ -80,12 +86,62 @@ def generate_response(quote):
         error_msg = f"Error generating response: {str(e)}"
         logging.error(error_msg)
         raise Exception(error_msg)
+    
+fallback_res = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
+
+dumm_stale_1 = {'quote': "dummy quote 1", 'explanation': "dummy explanation 1"}
+dumm_stale_2 = {'quote': "dummy quote 2", 'explanation': "dummy explanation 2"}
+dumm_stale_3 = {'quote': "dummy quote 3", 'explanation': "dummy explanation 3"}
+
+ready_quote_queue = deque()
+ready_quote_queue.append(fallback_res)
+
+stale_quote_queue_size = 4
+stale_quote_queue = deque()
+stale_quote_queue.append(fallback_res)
+stale_quote_queue.append(dumm_stale_1)
+stale_quote_queue.append(dumm_stale_2)
+stale_quote_queue.append(dumm_stale_3)
+
 
 @app.route('/daily_stoic', methods=['GET'])
 def daily_stoic():
     try:
-        temp_res = {'quote': '"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another." --Marcus Aurelius, Meditations, Book 7', 'explanation': 'My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part.'}
-        return temp_res, 200
+        if len(ready_quote_queue) > 0:
+            response = ready_quote_queue.popleft()
+            def long_running_task(**kwargs):
+                your_params = kwargs.get('post_data', {})
+                logging.info("Starting long task")
+                logging.info("Your params: %s", your_params)
+                for _ in range(5):
+                    time.sleep(1)
+                    logging.info(".")
+                logging.info("Long task done")
+                new_res = {
+                    "quote": f"{random.choice(['quote 11', 'quote 24', 'quote 35'])}",
+                    "explanation": f"{random.choice(['explanation 11', 'explanation 24', 'explanation 35'])}"
+                }
+                ready_quote_queue.append(new_res)
+                stale_quote_queue.append(new_res)
+                if len(ready_quote_queue) > stale_quote_queue_size:
+                    ready_quote_queue.popleft()
+
+
+                logging.info("Ready queue updated")
+            thread = threading.Thread(target=long_running_task, kwargs={
+                            'post_data': {}})
+            thread.start()
+            # wrie appropriate log here
+            logging.info(f"Successful response from ready_quote_queue: {response}")
+            return jsonify(response), 200
+        if len(stale_quote_queue) > 0:
+            # response = stale_quote_queue[-1] 
+            # response will be random choice
+            response = random.choice(stale_quote_queue)
+            # wrie appropriate log here
+            logging.info(f"Successful response from stale_quote_queue: {response}")
+            return jsonify(response), 200
+        return fallback_res, 200
         quote = fetch_quote()
         explanation = generate_response(quote)
         response = {
