@@ -18,7 +18,7 @@ import random
 import json
  
 
-kDebugMode = True 
+kDebugMode = False 
 
  
 # if kDebugMode or True:

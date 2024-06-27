@@ -30,10 +30,10 @@ export const patchRequest = (URL, payload) =>
 export const deleteRequest = (URL) =>
   axiosClient.delete(`/${URL}`).then((response) => response);
 
-export const kdm = true;
+export const kDebugMode = false;
 export const fetchQuote = async () => {
   try {
-    if (kdm) {
+    if (kDebugMode) {
       const quote = `"And he does live with the gods who constantly shows to them, his own soul is satisfied with that which is assigned to him, and that it does all that the daemon wishes, which Zeus hath given to every man for his guardian and guide, a portion of himself." --Marcus Aurelius, Meditations, Book 5`;
       const pay = {
         quote: quote,
