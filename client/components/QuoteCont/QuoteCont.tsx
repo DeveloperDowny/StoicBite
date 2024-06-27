@@ -99,8 +99,10 @@ const QuoteCont = ({ quote, quote_by }) => {
       <div className={styles.black_overlay}>
         <Image
           src="/images/black_gradient.svg"
-          layout="fill"
-          objectFit="cover"
+          fill={true}
+          style={{
+            objectFit: "cover",
+          }}
           alt={""}
         />
       </div>

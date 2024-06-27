@@ -7,6 +7,8 @@ async function bootstrap() {
   const doc = new DocumentBuilder().setTitle('Stoic quote API').setDescription("Simple API end points to get random quotes from Stoicism's four classic books").setVersion('0.0.1').build();
   const conf = SwaggerModule.createDocument(app, doc);
   SwaggerModule.setup('api-doc', app, conf);
-  await app.listen(3001);
+  // await app.listen(3001);
+  // PORT 
+  await app.listen(process.env.PORT || 8080);
 }
 bootstrap();

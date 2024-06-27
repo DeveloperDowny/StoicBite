@@ -49,10 +49,36 @@ def get_quote_from_request():
     logger.info("Received request for quote processing.")
     return data.get('quote', '')
 
+fallback_res_list = [{
+        "quote": "\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\" --Marcus Aurelius, Meditations, Book 7",
+        "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part."
+      }]
+fallback_res = fallback_res_list[0]
+
+file_path = "quotes.json"
+quotes = []
+f = open(file_path, "r")
+quotes = json.load(f)
+quotes = quotes.get("data", fallback_res_list)
+f.close()
+    
+ready_quote_queue = deque()
+ready_quote_queue.append(quotes[0]) 
+
+stale_quote_queue_size = len(quotes)
+logger.info(f"stale_quote_queue_size: {stale_quote_queue_size}")
+stale_quote_queue = deque()
+stale_quote_queue.extend(quotes) 
+
+processing_quote = False
+
+
 @cache.memoize(timeout=0)
 def cached_process_quote(quote):
     start_time = time.time()
-    explanation = generate_response(quote)
+    # explanation = generate_response(quote)
+    random_quote = random.choice(quotes)
+    explanation = random_quote.get("explanation", "explanation 1")
     end_time = time.time()
     time_taken = end_time - start_time
     logger.info(f"Processed quote in {time_taken:.2f} seconds. Cache miss.")
@@ -97,31 +123,12 @@ def generate_response(quote):
         logger.error(error_msg)
         raise Exception(error_msg)
 
-fallback_res_list = [{
-        "quote": "\"Through the universal substance as through a furious torrent all bodies are carried, being by their nature united with and cooperating with the whole, as the parts of our body with one another.\" --Marcus Aurelius, Meditations, Book 7",
-        "explanation": "My dear student, contemplate the nature of this great river of existence in which we find ourselves, a river that carries all beings within its perpetual flow. Each individual form, much like a leaf or a twig borne by the current, is part of the greater stream of the universe. Understand that all entities, by their fundamental essence, are interlinked and work in unison with this vast cosmic whole, just as the limbs of a body synergize in perfect harmony to sustain life.\n\nIn the grand tapestry of existence, each element is not an isolated phenomenon but a participant in a profound collaboration. Every being, every object, every circumstance is woven into the inexorable progression of the universe, much akin to the organs and limbs of the human body, which coalesce to serve the purpose of life and health. This unity and cooperation arise from the very nature of substance and essence, the intrinsic properties that bind the multitude into a single, cohesive entity.\n\nLet this realization guide your understanding of your role within this immutable flow. Accept with humility and gratitude your place in this vast, interconnected sphere. Know that by acknowledging your interdependence with the universe, you embrace the Stoic wisdom of living in harmony with nature, aligning your reason with the reason of the cosmos. Reflect upon your duties and actions as contributions to the greater whole, and let them be informed by virtue, as all things cooperate to foster the unity and orderly existence of which we are an inextricable part."
-      }]
-fallback_res = fallback_res_list[0]
 
-file_path = "quotes.json"
-quotes = []
-f = open(file_path, "r")
-quotes = json.load(f)
-quotes = quotes.get("data", fallback_res_list)
-f.close()
-    
+
+
  
 
  
-ready_quote_queue = deque()
-ready_quote_queue.append(quotes[0]) 
-
-stale_quote_queue_size = len(quotes)
-logger.info(f"stale_quote_queue_size: {stale_quote_queue_size}")
-stale_quote_queue = deque()
-stale_quote_queue.extend(quotes) 
-
-processing_quote = False
 
 def long_running_task(**kwargs):
     your_params = kwargs.get('post_data', {})
@@ -192,7 +199,7 @@ def daily_stoic():
             response = random.choice(stale_quote_queue)
             logger.info(f"Successful response from stale_quote_queue: {response}")
             return jsonify(response), 200
-        return fallback_res_list, 200 
+        return jsonify(fallback_res), 200 
     except Exception as e:
         error_response = {"error": str(e)}
         logger.error(f"Error in daily_stoic: {error_response}")
@@ -226,6 +233,10 @@ def test():
         "quote_by": quote_by,
         "explanation": explanation 
     }), 200
+
+@app.route('/version', methods=['GET'])
+def version():
+    return jsonify({"version": "1.0.0"}), 200
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
