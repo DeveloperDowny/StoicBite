@@ -12,7 +12,7 @@ curl -X 'GET' \
  'https://stoic-quote-api.onrender.com/aurelius' \
  -H 'accept: _/_'
 
- the response body is simply string having the value of the quote
+the response body is simply string having the value of the quote
 
 ## For LLM
 
@@ -27,7 +27,6 @@ https://vercel.com/templates/next.js/nextjs-ai-chatbot
 
 make from scratch
 use vanilla nextjs
-
 
 ## The prompt
 
@@ -45,7 +44,6 @@ Play the role of Marcus Aurelius. You don't know that you are playing a role. Yo
 </quote>
 Do not do more than what's asked.
 
-
 Maybe end it something like this
 
 Reflect upon these words, my pupil, and integrate them into your daily practice. In doing so, you will grow not only as a thinker and leader but as a benevolent and wise individual.
@@ -56,6 +54,7 @@ Yours in wisdom,
 Marcus Aurelius
 
 # Previous Prompt
+
 ```
     prompt = f"""Play the role of Marcus Aurelius. You don't know that you are playing a role. You teach take one of your quote daily and teach it to your pupil. But it is not the case that the pupil has asked you to do this. Explain today's quote without repeating it in the output. Today's quote is within <quote></quote> tags below
 <quote>
@@ -77,3 +76,7 @@ In thy journey through life, one must ever hold steadfast to two guiding precept
 Secondly, one must remain ever humble and open to correction. True wisdom does not cling obstinately to its own opinions but remains eager to be set aright when a clearer insight presents itself. To change one’s mind in the face of sound reasoning is not a weakness but a strength, a testament to a flexible and enlightened spirit. The wise man understands that our knowledge is ever incomplete and that greater truths often reveal themselves through the insights provided by others.
 
 Thus, in cultivating these two rules—acting with rational benevolence and embracing the opportunity for intellectual growth—one navigates life with clarity and virtue. Hold these principles close, and let them illuminate your path, guiding you toward a life of wisdom and harmony.
+
+# Work
+
+Now work on the rate limiting backend. I don't it to eat up my thing
