@@ -162,11 +162,12 @@ def long_running_task_of_fetching_quote_and_explanation(**kwargs):
 
     stale_quote_queue.append(new_res)
     # log lengths of both of them
+    if len(stale_quote_queue) > stale_quote_queue_size:
+        stale_quote_queue.popleft()
+    processing_quote = False
+
     logger.info(f"Length of ready_quote_queue: {len(ready_quote_queue)}")
     logger.info(f"Length of stale_quote_queue: {len(stale_quote_queue)}")
-    if len(ready_quote_queue) > stale_quote_queue_size:
-        ready_quote_queue.popleft()
-    processing_quote = False
     logger.info("Ready queue updated")
 
 
