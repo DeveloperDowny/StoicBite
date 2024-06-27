@@ -46,8 +46,6 @@ export const fetchQuote = async () => {
       return parseQuoteResponse(response.data);
     }
   } catch (error) {
-    // Log errors
-    console.error(error);
     return parseQuoteResponse(fallbackQuote);
     return {
       quote: "Error fetching quote",

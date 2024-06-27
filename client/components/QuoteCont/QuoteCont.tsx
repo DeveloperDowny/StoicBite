@@ -76,8 +76,10 @@ const QuoteCont = ({ quote, quote_by }) => {
             <div className={styles.quote_img_cont}>
               <Image
                 src="/images/quote_img.png"
-                layout="fill"
-                objectFit="cover"
+                fill={true}
+                style={{
+                  objectFit: "cover",
+                }}
                 alt={""}
               />
             </div>
@@ -105,9 +107,12 @@ const QuoteCont = ({ quote, quote_by }) => {
       <div className={styles.img_cont}>
         <Image
           src="/images/marcus_image.png"
-          layout="fill"
-          objectFit="cover"
-          alt={""}
+          fill={true}
+          alt={"Image of Marcus Aurelius"}
+          priority={true}
+          style={{
+            objectFit: "cover",
+          }}
         />
       </div>
     </div>
