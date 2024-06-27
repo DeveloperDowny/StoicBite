@@ -5,7 +5,7 @@ import logging
 from flask import Flask, jsonify
 import requests
 from openai import OpenAI
-# from k import oakv1, quote_url
+from k import oakv1, quote_url
 
 from flask import request, Response
 from flask_cors import CORS
@@ -62,12 +62,12 @@ def cached_process_quote(quote):
 
 # Configure OpenAI client
 # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-client = OpenAI(api_key=os.environ.get("OPEN_AI_KEY"))
+client = OpenAI(api_key=oakv1)
 
 def fetch_quote():
     """Fetch a quote from the Stoic Quote API."""
     # url = "https://stoic-quote-api.onrender.com/aurelius"
-    url = os.environ.get("QUOTE_URL", "https://stoic-quote-api.onrender.com/aurelius") 
+    url = quote_url
     response = requests.get(url)
     if response.status_code == 200:
         quote = response.text
@@ -240,5 +240,5 @@ def test():
         "explanation": explanation 
     }), 200
 
-if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=int(os.environ.get("PORT", 8080)))
+if __name__ == '__main__':
+    app.run()

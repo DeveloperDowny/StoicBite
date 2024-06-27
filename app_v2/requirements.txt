@@ -1,0 +1,6 @@
+Flask==3.0.2
+Flask-Caching==2.1.0
+Flask-CORS==4.0.0
+requests==2.31.0
+openai==1.35.3
+debugpy
