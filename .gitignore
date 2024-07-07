@@ -11,3 +11,5 @@ seneca_dialogues_aubrey-stewart/
 stoic_app_*.log
 
 __pycache__/
+
+.pytest_cache
